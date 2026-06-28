@@ -1,0 +1,40 @@
+|--- mean_abs_dev <= 0.33
+|   |--- coef_of_var <= 1.48
+|   |   |--- energy <= 12.18
+|   |   |   |--- class: 0
+|   |   |--- energy >  12.18
+|   |   |   |--- coef_of_var <= 1.48
+|   |   |   |   |--- class: 0
+|   |   |   |--- coef_of_var >  1.48
+|   |   |   |   |--- class: 1
+|   |--- coef_of_var >  1.48
+|   |   |--- std_dev <= 0.26
+|   |   |   |--- iqr <= 0.23
+|   |   |   |   |--- class: 0
+|   |   |   |--- iqr >  0.23
+|   |   |   |   |--- class: 0
+|   |   |--- std_dev >  0.26
+|   |   |   |--- mean_abs_dev <= 0.21
+|   |   |   |   |--- class: 1
+|   |   |   |--- mean_abs_dev >  0.21
+|   |   |   |   |--- class: 0
+|--- mean_abs_dev >  0.33
+|   |--- signal_to_noise <= 0.69
+|   |   |--- std_error_mean <= 0.04
+|   |   |   |--- root_mean_square <= 0.51
+|   |   |   |   |--- class: 0
+|   |   |   |--- root_mean_square >  0.51
+|   |   |   |   |--- class: 1
+|   |   |--- std_error_mean >  0.04
+|   |   |   |--- mean_abs_dev <= 0.37
+|   |   |   |   |--- class: 0
+|   |   |   |--- mean_abs_dev >  0.37
+|   |   |   |   |--- class: 1
+|   |--- signal_to_noise >  0.69
+|   |   |--- entropy <= 4.07
+|   |   |   |--- entropy <= 3.99
+|   |   |   |   |--- class: 1
+|   |   |   |--- entropy >  3.99
+|   |   |   |   |--- class: 1
+|   |   |--- entropy >  4.07
+|   |   |   |--- class: 0

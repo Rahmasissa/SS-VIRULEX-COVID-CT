@@ -1,0 +1,22 @@
+|--- mean_abs_dev <= 0.33
+|   |--- autocorrelation <= -0.07
+|   |   |--- geometric_mean <= 0.00
+|   |   |   |--- class: 0
+|   |   |--- geometric_mean >  0.00
+|   |   |   |--- class: 0
+|   |--- autocorrelation >  -0.07
+|   |   |--- signal_to_noise <= 0.67
+|   |   |   |--- class: 0
+|   |   |--- signal_to_noise >  0.67
+|   |   |   |--- class: 1
+|--- mean_abs_dev >  0.33
+|   |--- kurtosis <= 3.29
+|   |   |--- coef_of_var <= 1.43
+|   |   |   |--- class: 1
+|   |   |--- coef_of_var >  1.43
+|   |   |   |--- class: 1
+|   |--- kurtosis >  3.29
+|   |   |--- autocorrelation <= 0.06
+|   |   |   |--- class: 0
+|   |   |--- autocorrelation >  0.06
+|   |   |   |--- class: 0

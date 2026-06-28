@@ -1,0 +1,66 @@
+{
+  "role": "trained_svis_rulex_artifacts",
+  "description": "This folder is the trained SVIS-RULEX artifact cache consumed by the SS-VIRULEX pipeline.",
+  "artifact_root": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX",
+  "trained_output_dir": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs",
+  "ss_virulex_usage": [
+    "load the trained custom MobileNetV2 model for visual explanation stages",
+    "consume SVIS-RULEX statistical features as the statistical branch of SS-VIRULEX",
+    "use SVIS-RULEX ZFMIS/rule outputs as the stat-only baseline in final metrics",
+    "fuse SVIS-RULEX statistical features with Med-MICN concept probabilities"
+  ],
+  "artifacts": {
+    "custom_mobilenet_complete": {
+      "path": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/03_custom_mobilenetv2_complete_covid_ct.keras",
+      "exists": true,
+      "bytes": 11092592
+    },
+    "custom_mobilenet_head": {
+      "path": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/03_custom_mobilenetv2_head.keras",
+      "exists": true,
+      "bytes": 4390516
+    },
+    "custom_mobilenet_metrics": {
+      "path": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/03_custom_mobilenetv2_test_metrics.json",
+      "exists": true,
+      "bytes": 1187
+    },
+    "train_statistical_features": {
+      "path": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_train_statistical_features.csv",
+      "exists": true,
+      "bytes": 426133
+    },
+    "val_statistical_features": {
+      "path": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_val_statistical_features.csv",
+      "exists": true,
+      "bytes": 54781
+    },
+    "test_statistical_features": {
+      "path": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_test_statistical_features.csv",
+      "exists": true,
+      "bytes": 92055
+    },
+    "statistical_zfmis_feature_sets": {
+      "path": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_zfmis_feature_sets.json",
+      "exists": true,
+      "bytes": 2202
+    },
+    "svis_decision_tree_results": {
+      "path": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/05a_gridsearchfortree_results.csv",
+      "exists": true,
+      "bytes": 4315
+    },
+    "svis_rulefit_results": {
+      "path": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/05b_rulefitgridsearchcode_results.csv",
+      "exists": true,
+      "bytes": 472
+    }
+  },
+  "custom_mobilenet_metrics": {
+    "accuracy": 0.7536945812807881,
+    "balanced_accuracy": 0.7520408163265306,
+    "f1_weighted": 0.7529734059380616,
+    "roc_auc": 0.7997084548104956,
+    "epochs_run": 7
+  }
+}

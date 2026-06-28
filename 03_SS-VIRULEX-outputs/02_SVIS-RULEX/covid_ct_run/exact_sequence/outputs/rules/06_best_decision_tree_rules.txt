@@ -1,0 +1,43 @@
+|--- mean_abs_dev <= 0.33
+|   |--- signal_to_noise <= 0.67
+|   |   |--- mean_abs_dev <= 0.20
+|   |   |   |--- coef_of_var <= 1.64
+|   |   |   |   |--- class: 0
+|   |   |   |--- coef_of_var >  1.64
+|   |   |   |   |--- class: 0
+|   |   |--- mean_abs_dev >  0.20
+|   |   |   |--- entropy <= 3.81
+|   |   |   |   |--- class: 0
+|   |   |   |--- entropy >  3.81
+|   |   |   |   |--- class: 0
+|   |--- signal_to_noise >  0.67
+|   |   |--- mean_abs_dev <= 0.21
+|   |   |   |--- class: 0
+|   |   |--- mean_abs_dev >  0.21
+|   |   |   |--- signal_to_noise <= 0.68
+|   |   |   |   |--- class: 1
+|   |   |   |--- signal_to_noise >  0.68
+|   |   |   |   |--- class: 0
+|--- mean_abs_dev >  0.33
+|   |--- signal_to_noise <= 0.69
+|   |   |--- entropy <= 3.75
+|   |   |   |--- signal_to_noise <= 0.61
+|   |   |   |   |--- class: 1
+|   |   |   |--- signal_to_noise >  0.61
+|   |   |   |   |--- class: 1
+|   |   |--- entropy >  3.75
+|   |   |   |--- signal_to_noise <= 0.65
+|   |   |   |   |--- class: 0
+|   |   |   |--- signal_to_noise >  0.65
+|   |   |   |   |--- class: 1
+|   |--- signal_to_noise >  0.69
+|   |   |--- coef_of_var <= 1.37
+|   |   |   |--- signal_to_noise <= 0.77
+|   |   |   |   |--- class: 1
+|   |   |   |--- signal_to_noise >  0.77
+|   |   |   |   |--- class: 1
+|   |   |--- coef_of_var >  1.37
+|   |   |   |--- entropy <= 3.95
+|   |   |   |   |--- class: 1
+|   |   |   |--- entropy >  3.95
+|   |   |   |   |--- class: 0

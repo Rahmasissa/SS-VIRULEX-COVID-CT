@@ -1,0 +1,10 @@
+|--- mean_abs_dev <= 0.33
+|   |--- signal_to_noise <= 0.67
+|   |   |--- class: 0
+|   |--- signal_to_noise >  0.67
+|   |   |--- class: 0
+|--- mean_abs_dev >  0.33
+|   |--- coef_of_var <= 1.45
+|   |   |--- class: 1
+|   |--- coef_of_var >  1.45
+|   |   |--- class: 1

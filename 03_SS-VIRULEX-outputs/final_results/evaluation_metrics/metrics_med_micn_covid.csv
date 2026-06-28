@@ -1,0 +1,4 @@
+model_family,model,feature_set,n_features,accuracy,balanced_accuracy,f1_weighted,roc_auc,confusion_matrix
+Med-MICN,med_micn_task_classifier,concept_branch,,0.7044334975369458,0.704421768707483,0.7042540792540792,0.7597667638483965,
+Med-MICN,med_micn_neural_symbolic,neural_symbolic,,0.7142857142857143,0.7112244897959183,0.7105703048180925,0.7458697764820214,
+Med-MICN,med_micn_concept_encoder,concept_encoder,,0.7216748768472906,,0.659051724137931,,

@@ -1,0 +1,593 @@
+{
+  "ss_output_root": "/Users/samehissa/Downloads/SS-VIRULEX-outputs",
+  "source_cache_root": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs",
+  "created_at": "2026-05-23 21:40:38",
+  "copied_count": 117,
+  "copied": [
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/ss_virulex_pipeline_summary.json",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/summaries/ss_virulex_pipeline_summary.json"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/ss_virulex_final_metrics_summary.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/summaries/ss_virulex_final_metrics_summary.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/04_svis_rulex_required_components.json",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/summaries/04_svis_rulex_required_components.json"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/05_med_micn_required_components.json",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/summaries/05_med_micn_required_components.json"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/05c_combined_gridsearchfortree_results.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/summaries/05c_combined_gridsearchfortree_results.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/05d_combined_rulefitgridsearchcode_results.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/summaries/05d_combined_rulefitgridsearchcode_results.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/05e_combined_stronger_classifiers_results.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/summaries/05e_combined_stronger_classifiers_results.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/05f_combined_calibrated_threshold_results.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/summaries/05f_combined_calibrated_threshold_results.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/06_combined_rule_extraction_summary.json",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/summaries/06_combined_rule_extraction_summary.json"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/07_concept_aware_sfmov_heatmap_files.json",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/summaries/07_concept_aware_sfmov_heatmap_files.json"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_med_micn_concept_probabilities.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_med_micn_concept_probabilities.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_train_combined_stat_concept_features.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_train_combined_stat_concept_features.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_val_combined_stat_concept_features.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_val_combined_stat_concept_features.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_test_combined_stat_concept_features.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_test_combined_stat_concept_features.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_combined_feature_zero_fraction.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_combined_feature_zero_fraction.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_combined_zfmis_feature_sets.json",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_combined_zfmis_feature_sets.json"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/per_image_concept_probabilities.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/concept_branch/probabilities/covid_concept_probabilities.csv"
+    },
+    {
+      "type": "directory",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_combined_selected_12_features",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_combined_selected_12_features"
+    },
+    {
+      "type": "directory",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_combined_selected_15_features",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_combined_selected_15_features"
+    },
+    {
+      "type": "directory",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_combined_selected_18_features",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_combined_selected_18_features"
+    },
+    {
+      "type": "directory",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_combined_selected_3_features",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_combined_selected_3_features"
+    },
+    {
+      "type": "directory",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_combined_selected_6_features",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_combined_selected_6_features"
+    },
+    {
+      "type": "directory",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_combined_selected_9_features",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/features/04_combined_selected_9_features"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/05c_combined_decision_tree_all_rules.txt",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/05c_combined_decision_tree_all_rules.txt"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/05c_combined_decision_tree_filtered_rules.txt",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/05c_combined_decision_tree_filtered_rules.txt"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/05c_combined_decision_tree_selected_12_rules.txt",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/05c_combined_decision_tree_selected_12_rules.txt"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/05c_combined_decision_tree_selected_15_rules.txt",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/05c_combined_decision_tree_selected_15_rules.txt"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/05c_combined_decision_tree_selected_18_rules.txt",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/05c_combined_decision_tree_selected_18_rules.txt"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/05c_combined_decision_tree_selected_3_rules.txt",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/05c_combined_decision_tree_selected_3_rules.txt"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/05c_combined_decision_tree_selected_6_rules.txt",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/05c_combined_decision_tree_selected_6_rules.txt"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/05c_combined_decision_tree_selected_9_rules.txt",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/05c_combined_decision_tree_selected_9_rules.txt"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/05d_combined_rulefit_selected_3_rules.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/05d_combined_rulefit_selected_3_rules.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/05d_combined_rulefit_selected_6_rules.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/05d_combined_rulefit_selected_6_rules.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/06_combined_best_decision_tree_rules.txt",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/06_combined_best_decision_tree_rules.txt"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/rules/06_combined_best_rulefit_rules.csv",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/rules/06_combined_best_rulefit_rules.csv"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05c_combined_decision_tree_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05c_combined_decision_tree_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05c_combined_decision_tree_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05c_combined_decision_tree_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05c_combined_decision_tree_selected_12.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05c_combined_decision_tree_selected_12.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05c_combined_decision_tree_selected_15.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05c_combined_decision_tree_selected_15.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05c_combined_decision_tree_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05c_combined_decision_tree_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05c_combined_decision_tree_selected_3.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05c_combined_decision_tree_selected_3.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05c_combined_decision_tree_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05c_combined_decision_tree_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05c_combined_decision_tree_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05c_combined_decision_tree_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_extra_trees_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_extra_trees_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_extra_trees_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_extra_trees_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_extra_trees_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_extra_trees_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_extra_trees_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_extra_trees_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_extra_trees_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_extra_trees_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_extra_trees_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_extra_trees_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_gradient_boosting_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_gradient_boosting_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_gradient_boosting_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_gradient_boosting_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_gradient_boosting_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_gradient_boosting_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_gradient_boosting_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_gradient_boosting_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_gradient_boosting_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_gradient_boosting_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_gradient_boosting_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_gradient_boosting_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_hist_gradient_boosting_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_hist_gradient_boosting_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_hist_gradient_boosting_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_hist_gradient_boosting_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_hist_gradient_boosting_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_hist_gradient_boosting_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_hist_gradient_boosting_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_hist_gradient_boosting_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_hist_gradient_boosting_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_hist_gradient_boosting_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_hist_gradient_boosting_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_hist_gradient_boosting_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_logistic_regression_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_logistic_regression_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_logistic_regression_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_logistic_regression_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_logistic_regression_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_logistic_regression_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_logistic_regression_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_logistic_regression_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_logistic_regression_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_logistic_regression_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_logistic_regression_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_logistic_regression_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_random_forest_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_random_forest_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_random_forest_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_random_forest_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_random_forest_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_random_forest_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_random_forest_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_random_forest_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_random_forest_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_random_forest_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_random_forest_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_random_forest_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_svm_rbf_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_svm_rbf_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_svm_rbf_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_svm_rbf_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_svm_rbf_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_svm_rbf_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_svm_rbf_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_svm_rbf_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_svm_rbf_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_svm_rbf_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05e_combined_svm_rbf_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05e_combined_svm_rbf_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_extra_trees_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_extra_trees_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_extra_trees_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_extra_trees_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_extra_trees_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_extra_trees_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_extra_trees_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_extra_trees_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_extra_trees_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_extra_trees_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_extra_trees_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_extra_trees_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_gradient_boosting_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_gradient_boosting_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_gradient_boosting_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_gradient_boosting_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_gradient_boosting_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_gradient_boosting_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_gradient_boosting_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_gradient_boosting_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_gradient_boosting_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_gradient_boosting_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_gradient_boosting_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_gradient_boosting_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_hist_gradient_boosting_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_hist_gradient_boosting_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_hist_gradient_boosting_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_hist_gradient_boosting_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_hist_gradient_boosting_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_hist_gradient_boosting_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_hist_gradient_boosting_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_hist_gradient_boosting_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_hist_gradient_boosting_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_hist_gradient_boosting_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_hist_gradient_boosting_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_hist_gradient_boosting_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_logistic_regression_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_logistic_regression_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_logistic_regression_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_logistic_regression_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_logistic_regression_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_logistic_regression_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_logistic_regression_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_logistic_regression_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_logistic_regression_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_logistic_regression_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_logistic_regression_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_logistic_regression_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_random_forest_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_random_forest_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_random_forest_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_random_forest_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_random_forest_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_random_forest_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_random_forest_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_random_forest_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_random_forest_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_random_forest_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_random_forest_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_random_forest_selected_9.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_svm_rbf_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_svm_rbf_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_svm_rbf_filtered.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_svm_rbf_filtered.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_svm_rbf_med_diagnosis_all.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_svm_rbf_med_diagnosis_all.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_svm_rbf_selected_18.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_svm_rbf_selected_18.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_svm_rbf_selected_6.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_svm_rbf_selected_6.pkl"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/05f_combined_calibrated_svm_rbf_selected_9.pkl",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/models/05f_combined_calibrated_svm_rbf_selected_9.pkl"
+    },
+    {
+      "type": "directory",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/heatmaps/concept_aware",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/heatmaps/concept_aware"
+    },
+    {
+      "type": "file",
+      "source": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/ss_virulex_logs/ss_virulex_pipeline.log",
+      "destination": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/logs/ss_virulex_pipeline.log"
+    }
+  ]
+}

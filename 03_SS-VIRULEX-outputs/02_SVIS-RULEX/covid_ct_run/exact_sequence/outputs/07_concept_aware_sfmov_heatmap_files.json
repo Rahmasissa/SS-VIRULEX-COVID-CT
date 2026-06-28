@@ -1,0 +1,90 @@
+[
+  {
+    "image": "/Users/samehissa/Downloads/COVID-CT-Dataset-master/Images-processed/CT_COVID/impact_of_covid19_infection_on_pregnancy_outcomes_and_the_risk_of_maternaltoneonatal_intrapartum_transmission_of_covid19_during_natural_birth-p8-41%5.png",
+    "heatmap": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/heatmaps/concept_aware/COVID_impact_of_covid19_infection_on_pregnancy_outcomes_and_the_risk_of_maternaltoneonatal_intrapartum_transmission_of_covid19_during_natural_birth-p8-41%5_concept_aware_combined.png",
+    "class_name": "COVID",
+    "concept_alpha": 0.7082674275,
+    "weights": {
+      "mean": 0.09983566578620996,
+      "skewness": 0.24767457561844197,
+      "entropy": 0.6524897569574607
+    }
+  },
+  {
+    "image": "/Users/samehissa/Downloads/COVID-CT-Dataset-master/Images-processed/CT_COVID/bmj.m606.full-p4-22%2.png",
+    "heatmap": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/heatmaps/concept_aware/COVID_bmj.m606.full-p4-22%2_concept_aware_combined.png",
+    "class_name": "COVID",
+    "concept_alpha": 0.61028438625,
+    "weights": {
+      "mean": 0.08915978300701298,
+      "skewness": 0.24939049082862222,
+      "entropy": 0.6614497244821856
+    }
+  },
+  {
+    "image": "/Users/samehissa/Downloads/COVID-CT-Dataset-master/Images-processed/CT_COVID/Talaromyces-marneffei-infection-relapse-presenting-as-ost_2020_International-p1-12%3.png",
+    "heatmap": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/heatmaps/concept_aware/COVID_Talaromyces-marneffei-infection-relapse-presenting-as-ost_2020_International-p1-12%3_concept_aware_combined.png",
+    "class_name": "COVID",
+    "concept_alpha": 0.5747753575000001,
+    "weights": {
+      "mean": 0.09195675966016117,
+      "skewness": 0.27488164820082533,
+      "entropy": 0.6331615904614882
+    }
+  },
+  {
+    "image": "/Users/samehissa/Downloads/COVID-CT-Dataset-master/Images-processed/CT_COVID/2020.03.26.20041426-p11-120.png",
+    "heatmap": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/heatmaps/concept_aware/COVID_2020.03.26.20041426-p11-120_concept_aware_combined.png",
+    "class_name": "COVID",
+    "concept_alpha": 0.61475228375,
+    "weights": {
+      "mean": 0.10076888912011354,
+      "skewness": 0.252646731926935,
+      "entropy": 0.6465843772749243
+    }
+  },
+  {
+    "image": "/Users/samehissa/Downloads/COVID-CT-Dataset-master/Images-processed/CT_NonCOVID/5%4.jpg",
+    "heatmap": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/heatmaps/concept_aware/NonCOVID_5%4_concept_aware_combined.png",
+    "class_name": "NonCOVID",
+    "concept_alpha": 0.56279080625,
+    "weights": {
+      "mean": 0.09146558302991765,
+      "skewness": 0.28380306046220566,
+      "entropy": 0.6247313548990072
+    }
+  },
+  {
+    "image": "/Users/samehissa/Downloads/COVID-CT-Dataset-master/Images-processed/CT_NonCOVID/663.png",
+    "heatmap": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/heatmaps/concept_aware/NonCOVID_663_concept_aware_combined.png",
+    "class_name": "NonCOVID",
+    "concept_alpha": 0.54930764125,
+    "weights": {
+      "mean": 0.07663361285519599,
+      "skewness": 0.2472915292751622,
+      "entropy": 0.6760748561293212
+    }
+  },
+  {
+    "image": "/Users/samehissa/Downloads/COVID-CT-Dataset-master/Images-processed/CT_NonCOVID/1211.png",
+    "heatmap": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/heatmaps/concept_aware/NonCOVID_1211_concept_aware_combined.png",
+    "class_name": "NonCOVID",
+    "concept_alpha": 0.5366395125,
+    "weights": {
+      "mean": 0.09006582193691032,
+      "skewness": 0.2551334940439317,
+      "entropy": 0.6548006823386409
+    }
+  },
+  {
+    "image": "/Users/samehissa/Downloads/COVID-CT-Dataset-master/Images-processed/CT_NonCOVID/849.png",
+    "heatmap": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/heatmaps/concept_aware/NonCOVID_849_concept_aware_combined.png",
+    "class_name": "NonCOVID",
+    "concept_alpha": 0.6471815275,
+    "weights": {
+      "mean": 0.08892988645935088,
+      "skewness": 0.2550285040682776,
+      "entropy": 0.65604160779298
+    }
+  }
+]

@@ -1,0 +1,22 @@
+|--- med_task_prob_covid <= 0.08
+|   |--- med_task_prob_covid <= 0.00
+|   |   |--- med_task_prob_covid <= 0.00
+|   |   |   |--- class: 0
+|   |   |--- med_task_prob_covid >  0.00
+|   |   |   |--- class: 0
+|   |--- med_task_prob_covid >  0.00
+|   |   |--- iqr <= 0.58
+|   |   |   |--- class: 0
+|   |   |--- iqr >  0.58
+|   |   |   |--- class: 1
+|--- med_task_prob_covid >  0.08
+|   |--- med_task_prob_covid <= 0.89
+|   |   |--- concept_score_multilobar_distribution <= 0.59
+|   |   |   |--- class: 0
+|   |   |--- concept_score_multilobar_distribution >  0.59
+|   |   |   |--- class: 1
+|   |--- med_task_prob_covid >  0.89
+|   |   |--- mean_abs_dev <= 0.24
+|   |   |   |--- class: 1
+|   |   |--- mean_abs_dev >  0.24
+|   |   |   |--- class: 1

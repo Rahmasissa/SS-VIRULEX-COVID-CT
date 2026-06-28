@@ -1,0 +1,22 @@
+|--- med_task_prob_covid <= 0.08
+|   |--- med_task_prob_covid <= 0.00
+|   |   |--- med_task_prob_covid <= 0.00
+|   |   |   |--- class: 0
+|   |   |--- med_task_prob_covid >  0.00
+|   |   |   |--- class: 0
+|   |--- med_task_prob_covid >  0.00
+|   |   |--- concept_score_bilateral_involvement <= 0.52
+|   |   |   |--- class: 0
+|   |   |--- concept_score_bilateral_involvement >  0.52
+|   |   |   |--- class: 0
+|--- med_task_prob_covid >  0.08
+|   |--- med_task_prob_covid <= 0.89
+|   |   |--- concept_score_bilateral_involvement <= 0.53
+|   |   |   |--- class: 1
+|   |   |--- concept_score_bilateral_involvement >  0.53
+|   |   |   |--- class: 1
+|   |--- med_task_prob_covid >  0.89
+|   |   |--- concept_score_bilateral_involvement <= 0.60
+|   |   |   |--- class: 1
+|   |   |--- concept_score_bilateral_involvement >  0.60
+|   |   |   |--- class: 1

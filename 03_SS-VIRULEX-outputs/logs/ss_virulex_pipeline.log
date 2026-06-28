@@ -1,0 +1,500 @@
+2026-05-22 16:06:21,524 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-22 16:06:21,525 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-22 16:06:21,526 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-22 16:06:21,527 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-22 16:06:21,529 | INFO | START 5_med_micn_concept_branch
+2026-05-22 16:06:30,573 | INFO | Concept rows: 746; concept columns: 8
+2026-05-22 16:06:30,574 | INFO | Med-MICN notebook execution skipped. Use --run-med-micn to retrain it.
+2026-05-22 16:06:30,575 | INFO | DONE 5_med_micn_concept_branch in 9.0s
+2026-05-22 16:06:30,577 | INFO | START 6_combined_stat_concept_zfmis
+2026-05-22 16:06:30,741 | INFO | Concept rows: 746; concept columns: 8
+2026-05-22 16:06:30,936 | INFO | Saved 936 combined rows to /Users/samehissa/Downloads/XAI-Med-Images-Stat-Visual-Rules-main 2/covid_ct_run/exact_sequence/outputs/features/04_train_combined_stat_concept_features.csv
+2026-05-22 16:06:30,958 | INFO | Saved 118 combined rows to /Users/samehissa/Downloads/XAI-Med-Images-Stat-Visual-Rules-main 2/covid_ct_run/exact_sequence/outputs/features/04_val_combined_stat_concept_features.csv
+2026-05-22 16:06:30,991 | INFO | Saved 203 combined rows to /Users/samehissa/Downloads/XAI-Med-Images-Stat-Visual-Rules-main 2/covid_ct_run/exact_sequence/outputs/features/04_test_combined_stat_concept_features.csv
+2026-05-22 16:06:32,484 | INFO | Combined feature sets: {'all': 34, 'filtered': 28, 'statistical_all': 26, 'concept_all': 8, 'selected_18': 18, 'selected_15': 15, 'selected_12': 12, 'selected_9': 9, 'selected_6': 6, 'selected_3': 3}
+2026-05-22 16:06:32,486 | INFO | DONE 6_combined_stat_concept_zfmis in 1.9s
+2026-05-22 16:06:32,487 | INFO | START 7a_combined_decision_tree_rules
+2026-05-22 16:06:42,396 | INFO | Combined DT all: balanced_accuracy=0.7262
+2026-05-22 16:06:51,533 | INFO | Combined DT filtered: balanced_accuracy=0.7231
+2026-05-22 16:06:58,769 | INFO | Combined DT selected_18: balanced_accuracy=0.7303
+2026-05-22 16:07:04,612 | INFO | Combined DT selected_15: balanced_accuracy=0.7303
+2026-05-22 16:07:09,871 | INFO | Combined DT selected_12: balanced_accuracy=0.7282
+2026-05-22 16:07:13,833 | INFO | Combined DT selected_9: balanced_accuracy=0.6871
+2026-05-22 16:07:16,467 | INFO | Combined DT selected_6: balanced_accuracy=0.7303
+2026-05-22 16:07:19,423 | INFO | Combined DT selected_3: balanced_accuracy=0.7303
+2026-05-22 16:07:19,430 | INFO | DONE 7a_combined_decision_tree_rules in 46.9s
+2026-05-22 16:07:19,431 | INFO | START 7c_extract_combined_final_rules
+2026-05-22 16:07:19,436 | INFO | DONE 7c_extract_combined_final_rules in 0.0s
+2026-05-22 16:07:19,437 | INFO | START 9_final_summary
+2026-05-22 16:07:19,442 | INFO | DONE 9_final_summary in 0.0s
+2026-05-22 16:07:19,442 | INFO | SS-VIRULEX pipeline completed
+2026-05-22 16:33:32,092 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-22 16:33:32,094 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-22 16:33:32,095 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-22 16:33:32,096 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-22 16:33:32,097 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-22 16:33:39,671 | INFO | Concept rows: 746; concept columns: 8
+2026-05-22 16:33:39,677 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-22 16:33:39,677 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 7.6s
+2026-05-22 16:33:39,679 | INFO | SKIP 6_combined_stat_concept_zfmis: expected outputs already exist
+2026-05-22 16:33:39,679 | INFO | SKIP 7a_combined_decision_tree_rules: expected outputs already exist
+2026-05-22 16:33:39,680 | INFO | SKIP 7c_extract_combined_final_rules: expected outputs already exist
+2026-05-22 16:33:39,680 | INFO | START 9_final_summary
+2026-05-22 16:33:39,697 | INFO | DONE 9_final_summary in 0.0s
+2026-05-22 16:33:39,697 | INFO | SS-VIRULEX pipeline completed
+2026-05-22 16:50:30,223 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-22 16:50:30,227 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-22 16:50:30,228 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-22 16:50:30,230 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-22 16:50:30,233 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-22 16:50:38,565 | INFO | Concept rows: 746; concept columns: 8
+2026-05-22 16:50:38,584 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-22 16:50:38,584 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 8.4s
+2026-05-22 16:50:38,584 | INFO | SKIP 6_combined_stat_concept_zfmis: expected outputs already exist
+2026-05-22 16:50:38,585 | INFO | SKIP 7a_combined_decision_tree_rules: expected outputs already exist
+2026-05-22 16:50:38,586 | INFO | START 7b_combined_rulefit_rules
+2026-05-22 16:50:40,464 | INFO | Combined RuleFit selected_3: balanced_accuracy=0.7303
+2026-05-22 16:50:41,959 | INFO | Combined RuleFit selected_6: balanced_accuracy=0.7303
+2026-05-22 16:50:41,965 | INFO | DONE 7b_combined_rulefit_rules in 3.4s
+2026-05-22 16:50:41,966 | INFO | SKIP 7c_extract_combined_final_rules: expected outputs already exist
+2026-05-22 16:50:41,969 | INFO | START 8_concept_aware_sfmov
+2026-05-22 16:50:42,000 | INFO | Concept rows: 746; concept columns: 8
+2026-05-22 16:51:45,232 | INFO | DONE 8_concept_aware_sfmov in 63.3s
+2026-05-22 16:51:45,233 | INFO | START 9_final_summary
+2026-05-22 16:51:45,273 | INFO | DONE 9_final_summary in 0.0s
+2026-05-22 16:51:45,273 | INFO | SS-VIRULEX pipeline completed
+2026-05-22 17:02:55,778 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-22 17:02:55,781 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-22 17:02:55,781 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-22 17:02:55,783 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-22 17:02:55,783 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-22 17:03:06,660 | INFO | Concept rows: 746; concept columns: 8
+2026-05-22 17:03:06,671 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-22 17:03:06,672 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 10.9s
+2026-05-22 17:03:06,673 | INFO | SKIP 6_combined_stat_concept_zfmis: expected outputs already exist
+2026-05-22 17:03:06,675 | INFO | SKIP 7a_combined_decision_tree_rules: expected outputs already exist
+2026-05-22 17:03:06,678 | INFO | SKIP 7c_extract_combined_final_rules: expected outputs already exist
+2026-05-22 17:03:06,678 | INFO | START 9_final_summary
+2026-05-22 17:03:06,705 | INFO | DONE 9_final_summary in 0.0s
+2026-05-22 17:03:06,706 | INFO | START 10_export_consolidated_ss_virulex_outputs
+2026-05-22 17:03:07,218 | INFO | Consolidated SS-VIRULEX outputs exported to /Users/samehissa/Downloads/SS-VIRULEX-outputs
+2026-05-22 17:03:07,225 | INFO | DONE 10_export_consolidated_ss_virulex_outputs in 0.5s
+2026-05-22 17:03:07,226 | INFO | SS-VIRULEX pipeline completed
+2026-05-22 17:04:39,476 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-22 17:04:39,477 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-22 17:04:39,478 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-22 17:04:39,478 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-22 17:04:39,479 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-22 17:04:47,279 | INFO | Concept rows: 746; concept columns: 8
+2026-05-22 17:04:47,297 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-22 17:04:47,298 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 7.8s
+2026-05-22 17:04:47,299 | INFO | SKIP 6_combined_stat_concept_zfmis: expected outputs already exist
+2026-05-22 17:04:47,300 | INFO | SKIP 7a_combined_decision_tree_rules: expected outputs already exist
+2026-05-22 17:04:47,300 | INFO | SKIP 7b_combined_rulefit_rules: expected outputs already exist
+2026-05-22 17:04:47,301 | INFO | SKIP 7c_extract_combined_final_rules: expected outputs already exist
+2026-05-22 17:04:47,307 | INFO | SKIP 8_concept_aware_sfmov: expected outputs already exist
+2026-05-22 17:04:47,308 | INFO | START 9_final_summary
+2026-05-22 17:04:47,391 | INFO | DONE 9_final_summary in 0.1s
+2026-05-22 17:04:47,391 | INFO | START 10_export_consolidated_ss_virulex_outputs
+2026-05-22 17:04:48,240 | INFO | Consolidated SS-VIRULEX outputs exported to /Users/samehissa/Downloads/SS-VIRULEX-outputs
+2026-05-22 17:04:48,240 | INFO | DONE 10_export_consolidated_ss_virulex_outputs in 0.8s
+2026-05-22 17:04:48,242 | INFO | SS-VIRULEX pipeline completed
+2026-05-23 14:21:35,628 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-23 14:21:35,631 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-23 14:21:35,632 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-23 14:21:35,635 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-23 14:21:35,635 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-23 14:21:40,023 | WARNING | No GPT-4V/BioVIL concept generation script was found in either repository. Using the completed concept CSV as the materialized output of that screenshot branch.
+2026-05-23 14:21:40,069 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 14:21:40,080 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-23 14:21:40,081 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 4.4s
+2026-05-23 14:21:40,082 | INFO | SKIP 6_combined_stat_concept_zfmis: expected outputs already exist
+2026-05-23 14:21:40,085 | INFO | SKIP 7a_combined_decision_tree_rules: expected outputs already exist
+2026-05-23 14:21:40,086 | INFO | SKIP 7c_extract_combined_final_rules: expected outputs already exist
+2026-05-23 14:21:40,088 | INFO | START 9_final_summary
+2026-05-23 14:21:40,129 | INFO | DONE 9_final_summary in 0.0s
+2026-05-23 14:21:40,129 | INFO | START 10_export_consolidated_ss_virulex_outputs
+2026-05-23 14:21:40,332 | INFO | Consolidated SS-VIRULEX outputs exported to /Users/samehissa/Downloads/SS-VIRULEX-outputs
+2026-05-23 14:21:40,332 | INFO | DONE 10_export_consolidated_ss_virulex_outputs in 0.2s
+2026-05-23 14:21:40,333 | INFO | SS-VIRULEX pipeline completed
+2026-05-23 14:41:02,682 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-23 14:41:02,682 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-23 14:41:02,683 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-23 14:41:02,684 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-23 14:41:02,685 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-23 14:41:06,203 | WARNING | No GPT-4V/BioVIL concept generation script was found in either repository. Using the completed concept CSV as the materialized output of that screenshot branch.
+2026-05-23 14:41:06,237 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 14:41:06,245 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-23 14:41:06,246 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 3.6s
+2026-05-23 14:41:06,246 | INFO | START 5b_med_micn_per_image_concept_probabilities
+2026-05-23 14:41:15,466 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 14:41:20,070 | ERROR | FAILED 5b_med_micn_per_image_concept_probabilities
+Traceback (most recent call last):
+  File "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/01_Med-MICN/run_ss_virulex_pipeline.py", line 200, in run_stage
+    result = func()
+             ^^^^^^
+  File "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/01_Med-MICN/run_ss_virulex_pipeline.py", line 1323, in <lambda>
+    lambda: generate_med_micn_concept_probabilities(ctx),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/01_Med-MICN/run_ss_virulex_pipeline.py", line 610, in generate_med_micn_concept_probabilities
+    frame = build_med_micn_inference_frame(ctx, concept_df)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/01_Med-MICN/run_ss_virulex_pipeline.py", line 568, in build_med_micn_inference_frame
+    raise PipelineError(f"{len(missing_paths)} Med-MICN inference image paths are missing. First: {missing_paths[0]}")
+PipelineError: 511 Med-MICN inference image paths are missing. First: /Users/samehissa/Downloads/XAI-Med-Images-Stat-Visual-Rules-main 2/covid_ct_run/exact_sequence/outputs/augmented_train_images/COVID/2020.01.24.919183-p27-132_aug_0000.png
+2026-05-23 14:41:20,077 | ERROR | 5b_med_micn_per_image_concept_probabilities failed: 511 Med-MICN inference image paths are missing. First: /Users/samehissa/Downloads/XAI-Med-Images-Stat-Visual-Rules-main 2/covid_ct_run/exact_sequence/outputs/augmented_train_images/COVID/2020.01.24.919183-p27-132_aug_0000.png
+2026-05-23 14:42:52,727 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-23 14:42:52,728 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-23 14:42:52,734 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-23 14:42:52,747 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-23 14:42:52,749 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-23 14:42:54,525 | WARNING | No GPT-4V/BioVIL concept generation script was found in either repository. Using the completed concept CSV as the materialized output of that screenshot branch.
+2026-05-23 14:42:54,536 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 14:42:54,541 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-23 14:42:54,542 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 1.8s
+2026-05-23 14:42:54,542 | INFO | START 5b_med_micn_per_image_concept_probabilities
+2026-05-23 14:42:59,506 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 14:47:27,559 | INFO | Saved Med-MICN per-image concept probabilities: rows=1257 path=/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/per_image_concept_probabilities.csv device=cpu
+2026-05-23 14:47:27,568 | INFO | DONE 5b_med_micn_per_image_concept_probabilities in 273.0s
+2026-05-23 14:47:27,570 | INFO | START 6_combined_stat_concept_zfmis
+2026-05-23 14:47:27,589 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 14:47:27,812 | INFO | Saved 936 combined rows to 03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_train_combined_stat_concept_features.csv
+2026-05-23 14:47:27,833 | INFO | Saved 118 combined rows to 03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_val_combined_stat_concept_features.csv
+2026-05-23 14:47:27,868 | INFO | Saved 203 combined rows to 03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_test_combined_stat_concept_features.csv
+2026-05-23 14:47:29,920 | INFO | Combined feature sets: {'all': 34, 'filtered': 29, 'statistical_all': 26, 'concept_all': 8, 'selected_18': 18, 'selected_15': 15, 'selected_12': 12, 'selected_9': 9, 'selected_6': 6, 'selected_3': 3}
+2026-05-23 14:47:29,922 | INFO | DONE 6_combined_stat_concept_zfmis in 2.4s
+2026-05-23 14:47:29,923 | INFO | START 7a_combined_decision_tree_rules
+2026-05-23 14:47:43,472 | INFO | Combined DT all: balanced_accuracy=0.6864
+2026-05-23 14:47:56,346 | INFO | Combined DT filtered: balanced_accuracy=0.6864
+2026-05-23 14:48:06,272 | INFO | Combined DT selected_18: balanced_accuracy=0.6776
+2026-05-23 14:48:13,830 | INFO | Combined DT selected_15: balanced_accuracy=0.6776
+2026-05-23 14:48:20,293 | INFO | Combined DT selected_12: balanced_accuracy=0.6864
+2026-05-23 14:48:26,345 | INFO | Combined DT selected_9: balanced_accuracy=0.6912
+2026-05-23 14:48:30,759 | INFO | Combined DT selected_6: balanced_accuracy=0.6599
+2026-05-23 14:48:34,681 | INFO | Combined DT selected_3: balanced_accuracy=0.6864
+2026-05-23 14:48:34,688 | INFO | DONE 7a_combined_decision_tree_rules in 64.8s
+2026-05-23 14:48:34,689 | INFO | START 7b_combined_rulefit_rules
+2026-05-23 14:48:38,532 | INFO | Combined RuleFit selected_3: balanced_accuracy=0.6830
+2026-05-23 14:48:42,286 | INFO | Combined RuleFit selected_6: balanced_accuracy=0.6782
+2026-05-23 14:48:42,292 | INFO | DONE 7b_combined_rulefit_rules in 7.6s
+2026-05-23 14:48:42,292 | INFO | START 7c_extract_combined_final_rules
+2026-05-23 14:48:42,301 | INFO | DONE 7c_extract_combined_final_rules in 0.0s
+2026-05-23 14:48:42,302 | INFO | START 8_concept_aware_sfmov
+2026-05-23 14:48:42,310 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 14:49:26,463 | INFO | DONE 8_concept_aware_sfmov in 44.2s
+2026-05-23 14:49:26,465 | INFO | START 9_final_summary
+2026-05-23 14:49:26,477 | INFO | DONE 9_final_summary in 0.0s
+2026-05-23 14:49:26,477 | INFO | START 10_export_consolidated_ss_virulex_outputs
+2026-05-23 14:49:26,695 | INFO | Consolidated SS-VIRULEX outputs exported to /Users/samehissa/Downloads/SS-VIRULEX-outputs
+2026-05-23 14:49:26,696 | INFO | DONE 10_export_consolidated_ss_virulex_outputs in 0.2s
+2026-05-23 14:49:26,696 | INFO | SS-VIRULEX pipeline completed
+2026-05-23 15:20:25,012 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-23 15:20:25,013 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-23 15:20:25,015 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-23 15:20:25,022 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-23 15:20:25,023 | INFO | START 4b_required_svis_rulex_trained_components
+2026-05-23 15:20:25,110 | INFO | SVIS-RULEX required components validated: custom_mobilenet_accuracy=0.7044
+2026-05-23 15:20:25,111 | INFO | DONE 4b_required_svis_rulex_trained_components in 0.1s
+2026-05-23 15:20:25,111 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-23 15:20:30,836 | WARNING | No GPT-4V/BioVIL concept generation script was found in either repository. Using the completed concept CSV as the materialized output of that screenshot branch.
+2026-05-23 15:20:30,856 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 15:20:30,869 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-23 15:20:30,871 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 5.8s
+2026-05-23 15:20:30,873 | INFO | SKIP 5b_med_micn_per_image_concept_probabilities: expected outputs already exist
+2026-05-23 15:20:30,874 | INFO | SKIP 6_combined_stat_concept_zfmis: expected outputs already exist
+2026-05-23 15:20:30,876 | INFO | SKIP 7a_combined_decision_tree_rules: expected outputs already exist
+2026-05-23 15:20:30,877 | INFO | SKIP 7c_extract_combined_final_rules: expected outputs already exist
+2026-05-23 15:20:30,879 | INFO | START 9_final_summary
+2026-05-23 15:20:30,909 | INFO | DONE 9_final_summary in 0.0s
+2026-05-23 15:20:30,910 | INFO | START 10_export_consolidated_ss_virulex_outputs
+2026-05-23 15:20:31,420 | INFO | Consolidated SS-VIRULEX outputs exported to /Users/samehissa/Downloads/SS-VIRULEX-outputs
+2026-05-23 15:20:31,420 | INFO | DONE 10_export_consolidated_ss_virulex_outputs in 0.5s
+2026-05-23 15:20:31,421 | INFO | SS-VIRULEX pipeline completed
+2026-05-23 18:45:37,501 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-23 18:45:37,502 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-23 18:45:37,502 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-23 18:45:37,503 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-23 18:45:37,503 | INFO | START 4b_required_svis_rulex_trained_components
+2026-05-23 18:45:37,552 | INFO | SVIS-RULEX required components validated: custom_mobilenet_accuracy=0.7044
+2026-05-23 18:45:37,553 | INFO | DONE 4b_required_svis_rulex_trained_components in 0.0s
+2026-05-23 18:45:37,554 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-23 18:45:41,562 | WARNING | No GPT-4V/BioVIL concept generation script was found in either repository. Using the completed concept CSV as the materialized output of that screenshot branch.
+2026-05-23 18:45:41,632 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 18:45:41,643 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-23 18:45:41,644 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 4.1s
+2026-05-23 18:45:41,644 | INFO | START 5b_med_micn_per_image_concept_probabilities
+2026-05-23 18:45:41,644 | ERROR | FAILED 5b_med_micn_per_image_concept_probabilities
+Traceback (most recent call last):
+  File "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/01_Med-MICN/run_ss_virulex_pipeline.py", line 208, in run_stage
+    result = func()
+             ^^^^^^
+  File "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/01_Med-MICN/run_ss_virulex_pipeline.py", line 1419, in <lambda>
+    lambda: generate_med_micn_concept_probabilities(ctx),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/01_Med-MICN/run_ss_virulex_pipeline.py", line 650, in generate_med_micn_concept_probabilities
+    import torch
+ModuleNotFoundError: No module named 'torch'
+2026-05-23 18:45:41,667 | ERROR | 5b_med_micn_per_image_concept_probabilities failed: No module named 'torch'
+2026-05-23 18:55:43,547 | INFO | START 1_input_preprocessing
+2026-05-23 18:55:43,918 | INFO | Official rows: 746
+2026-05-23 18:55:43,919 | INFO | Augmented rows: 1257
+2026-05-23 18:55:43,919 | INFO | DONE 1_input_preprocessing in 0.4s
+2026-05-23 18:55:43,920 | INFO | START 2_mobilenetv2_grid_search_and_base_features
+2026-05-23 18:56:36,134 | INFO | DL grid-search candidates: 8
+2026-05-23 18:56:36,135 | INFO | Best DL hyperparameters: {'learning_rate': 0.001, 'dense_units': 256, 'dropout': 0.5}
+2026-05-23 18:56:36,136 | INFO | DONE 2_mobilenetv2_grid_search_and_base_features in 52.2s
+2026-05-23 18:56:36,136 | INFO | START 3_final_custom_mobilenetv2
+2026-05-23 18:56:43,709 | INFO | Final MobileNetV2 test metrics: accuracy=0.7537 balanced_accuracy=0.7520 f1=0.7530
+2026-05-23 18:56:43,710 | INFO | DONE 3_final_custom_mobilenetv2 in 7.6s
+2026-05-23 18:56:43,711 | INFO | START 4_statistical_features_zfmis
+2026-05-23 18:56:52,134 | INFO | Statistical feature sets: {'all': 26, 'filtered': 21, 'selected_18': 18, 'selected_15': 15, 'selected_12': 12, 'selected_9': 9, 'selected_6': 6, 'selected_3': 3}
+2026-05-23 18:56:52,135 | INFO | DONE 4_statistical_features_zfmis in 8.4s
+2026-05-23 18:56:52,135 | INFO | START 4b_required_svis_rulex_trained_components
+2026-05-23 18:56:52,171 | INFO | SVIS-RULEX required components validated: custom_mobilenet_accuracy=0.7537
+2026-05-23 18:56:52,172 | INFO | DONE 4b_required_svis_rulex_trained_components in 0.0s
+2026-05-23 18:56:52,172 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-23 18:56:57,300 | WARNING | No GPT-4V/BioVIL concept generation script was found in either repository. Using the completed concept CSV as the materialized output of that screenshot branch.
+2026-05-23 18:56:57,321 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 18:56:57,336 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-23 18:56:57,336 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 5.2s
+2026-05-23 18:56:57,337 | INFO | START 5b_med_micn_per_image_concept_probabilities
+2026-05-23 18:57:07,750 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 18:57:14,580 | INFO | Med-MICN concept inference batch 1/79 rows=16/1257
+2026-05-23 18:57:37,138 | INFO | Med-MICN concept inference batch 10/79 rows=160/1257
+2026-05-23 18:58:03,345 | INFO | Med-MICN concept inference batch 20/79 rows=320/1257
+2026-05-23 18:58:31,544 | INFO | Med-MICN concept inference batch 30/79 rows=480/1257
+2026-05-23 18:59:04,689 | INFO | Med-MICN concept inference batch 40/79 rows=640/1257
+2026-05-23 18:59:36,757 | INFO | Med-MICN concept inference batch 50/79 rows=800/1257
+2026-05-23 19:00:06,666 | INFO | Med-MICN concept inference batch 60/79 rows=960/1257
+2026-05-23 19:00:31,485 | INFO | Med-MICN concept inference batch 70/79 rows=1120/1257
+2026-05-23 19:00:53,288 | INFO | Med-MICN concept inference batch 79/79 rows=1257/1257
+2026-05-23 19:00:53,479 | INFO | Saved Med-MICN per-image concept probabilities: rows=1257 path=/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/per_image_concept_probabilities.csv device=cpu
+2026-05-23 19:00:53,479 | INFO | DONE 5b_med_micn_per_image_concept_probabilities in 236.1s
+2026-05-23 19:00:53,480 | INFO | START 6_combined_stat_concept_zfmis
+2026-05-23 19:00:53,494 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 19:00:53,689 | INFO | Saved 936 combined rows to /Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_train_combined_stat_concept_features.csv
+2026-05-23 19:00:53,718 | INFO | Saved 118 combined rows to /Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_val_combined_stat_concept_features.csv
+2026-05-23 19:00:53,756 | INFO | Saved 203 combined rows to /Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_test_combined_stat_concept_features.csv
+2026-05-23 19:00:55,037 | INFO | Combined feature sets: {'all': 34, 'filtered': 29, 'statistical_all': 26, 'concept_all': 8, 'selected_18': 18, 'selected_15': 15, 'selected_12': 12, 'selected_9': 9, 'selected_6': 6, 'selected_3': 3}
+2026-05-23 19:00:55,038 | INFO | DONE 6_combined_stat_concept_zfmis in 1.6s
+2026-05-23 19:00:55,039 | INFO | START 7a_combined_decision_tree_rules
+2026-05-23 19:01:06,178 | INFO | Combined DT all: balanced_accuracy=0.6864
+2026-05-23 19:01:16,441 | INFO | Combined DT filtered: balanced_accuracy=0.6864
+2026-05-23 19:01:24,093 | INFO | Combined DT selected_18: balanced_accuracy=0.6776
+2026-05-23 19:01:30,966 | INFO | Combined DT selected_15: balanced_accuracy=0.6776
+2026-05-23 19:01:36,911 | INFO | Combined DT selected_12: balanced_accuracy=0.6864
+2026-05-23 19:01:42,106 | INFO | Combined DT selected_9: balanced_accuracy=0.6912
+2026-05-23 19:01:46,312 | INFO | Combined DT selected_6: balanced_accuracy=0.6599
+2026-05-23 19:01:49,963 | INFO | Combined DT selected_3: balanced_accuracy=0.6864
+2026-05-23 19:01:49,967 | INFO | DONE 7a_combined_decision_tree_rules in 54.9s
+2026-05-23 19:01:49,967 | INFO | START 7b_combined_rulefit_rules
+2026-05-23 19:01:53,814 | INFO | Combined RuleFit selected_3: balanced_accuracy=0.6830
+2026-05-23 19:01:57,688 | INFO | Combined RuleFit selected_6: balanced_accuracy=0.6782
+2026-05-23 19:01:57,692 | INFO | DONE 7b_combined_rulefit_rules in 7.7s
+2026-05-23 19:01:57,692 | INFO | START 7c_extract_combined_final_rules
+2026-05-23 19:01:57,707 | INFO | DONE 7c_extract_combined_final_rules in 0.0s
+2026-05-23 19:01:57,707 | INFO | START 8_concept_aware_sfmov
+2026-05-23 19:01:57,720 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 19:02:19,304 | INFO | DONE 8_concept_aware_sfmov in 21.6s
+2026-05-23 19:02:19,304 | INFO | START 9_final_summary
+2026-05-23 19:02:19,313 | INFO | DONE 9_final_summary in 0.0s
+2026-05-23 19:02:19,314 | INFO | START 10_export_consolidated_ss_virulex_outputs
+2026-05-23 19:02:19,451 | INFO | Consolidated SS-VIRULEX outputs exported to /Users/samehissa/Downloads/SS-VIRULEX-outputs
+2026-05-23 19:02:19,451 | INFO | DONE 10_export_consolidated_ss_virulex_outputs in 0.1s
+2026-05-23 19:02:19,452 | INFO | SS-VIRULEX pipeline completed
+2026-05-23 19:04:14,283 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-23 19:04:14,284 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-23 19:04:14,284 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-23 19:04:14,284 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-23 19:04:14,284 | INFO | START 4b_required_svis_rulex_trained_components
+2026-05-23 19:04:14,325 | INFO | SVIS-RULEX required components validated: custom_mobilenet_accuracy=0.7537
+2026-05-23 19:04:14,325 | INFO | DONE 4b_required_svis_rulex_trained_components in 0.0s
+2026-05-23 19:04:14,326 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-23 19:04:15,970 | WARNING | No GPT-4V/BioVIL concept generation script was found in either repository. Using the completed concept CSV as the materialized output of that screenshot branch.
+2026-05-23 19:04:15,983 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 19:04:15,991 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-23 19:04:15,991 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 1.7s
+2026-05-23 19:04:15,992 | INFO | START 5b_med_micn_per_image_concept_probabilities
+2026-05-23 19:04:19,983 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 19:04:23,474 | INFO | Med-MICN concept inference batch 1/79 rows=16/1257
+2026-05-23 19:04:44,446 | INFO | Med-MICN concept inference batch 10/79 rows=160/1257
+2026-05-23 19:05:09,087 | INFO | Med-MICN concept inference batch 20/79 rows=320/1257
+2026-05-23 19:05:39,433 | INFO | Med-MICN concept inference batch 30/79 rows=480/1257
+2026-05-23 19:06:06,270 | INFO | Med-MICN concept inference batch 40/79 rows=640/1257
+2026-05-23 19:06:31,497 | INFO | Med-MICN concept inference batch 50/79 rows=800/1257
+2026-05-23 19:06:57,446 | INFO | Med-MICN concept inference batch 60/79 rows=960/1257
+2026-05-23 19:07:26,876 | INFO | Med-MICN concept inference batch 70/79 rows=1120/1257
+2026-05-23 19:07:50,051 | INFO | Med-MICN concept inference batch 79/79 rows=1257/1257
+2026-05-23 19:07:50,313 | INFO | Saved Med-MICN per-image concept probabilities: rows=1257 path=/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/per_image_concept_probabilities.csv device=cpu
+2026-05-23 19:07:50,313 | INFO | DONE 5b_med_micn_per_image_concept_probabilities in 214.3s
+2026-05-23 19:07:50,313 | INFO | START 6_combined_stat_concept_zfmis
+2026-05-23 19:07:50,333 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 19:07:50,526 | INFO | Saved 936 combined rows to /Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_train_combined_stat_concept_features.csv
+2026-05-23 19:07:50,639 | INFO | Saved 118 combined rows to /Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_val_combined_stat_concept_features.csv
+2026-05-23 19:07:50,729 | INFO | Saved 203 combined rows to /Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_test_combined_stat_concept_features.csv
+2026-05-23 19:07:52,406 | INFO | Combined feature sets: {'all': 34, 'filtered': 29, 'statistical_all': 26, 'concept_all': 8, 'selected_18': 18, 'selected_15': 15, 'selected_12': 12, 'selected_9': 9, 'selected_6': 6, 'selected_3': 3}
+2026-05-23 19:07:52,407 | INFO | DONE 6_combined_stat_concept_zfmis in 2.1s
+2026-05-23 19:07:52,407 | INFO | START 7a_combined_decision_tree_rules
+2026-05-23 19:08:03,411 | INFO | Combined DT all: balanced_accuracy=0.6864
+2026-05-23 19:08:13,760 | INFO | Combined DT filtered: balanced_accuracy=0.6864
+2026-05-23 19:08:24,315 | INFO | Combined DT selected_18: balanced_accuracy=0.6776
+2026-05-23 19:08:33,512 | INFO | Combined DT selected_15: balanced_accuracy=0.6776
+2026-05-23 19:08:41,712 | INFO | Combined DT selected_12: balanced_accuracy=0.6864
+2026-05-23 19:08:48,469 | INFO | Combined DT selected_9: balanced_accuracy=0.6912
+2026-05-23 19:08:53,587 | INFO | Combined DT selected_6: balanced_accuracy=0.6599
+2026-05-23 19:08:58,032 | INFO | Combined DT selected_3: balanced_accuracy=0.6864
+2026-05-23 19:08:58,074 | INFO | DONE 7a_combined_decision_tree_rules in 65.7s
+2026-05-23 19:08:58,075 | INFO | START 7b_combined_rulefit_rules
+2026-05-23 19:09:02,956 | INFO | Combined RuleFit selected_3: balanced_accuracy=0.6830
+2026-05-23 19:09:08,843 | INFO | Combined RuleFit selected_6: balanced_accuracy=0.6782
+2026-05-23 19:09:08,847 | INFO | DONE 7b_combined_rulefit_rules in 10.8s
+2026-05-23 19:09:08,848 | INFO | START 7c_extract_combined_final_rules
+2026-05-23 19:09:08,866 | INFO | DONE 7c_extract_combined_final_rules in 0.0s
+2026-05-23 19:09:08,866 | INFO | START 8_concept_aware_sfmov
+2026-05-23 19:09:08,880 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 19:09:50,030 | INFO | DONE 8_concept_aware_sfmov in 41.2s
+2026-05-23 19:09:50,032 | INFO | START 9_final_summary
+2026-05-23 19:09:50,041 | INFO | DONE 9_final_summary in 0.0s
+2026-05-23 19:09:50,042 | INFO | START 10_export_consolidated_ss_virulex_outputs
+2026-05-23 19:09:50,272 | INFO | Consolidated SS-VIRULEX outputs exported to /Users/samehissa/Downloads/SS-VIRULEX-outputs
+2026-05-23 19:09:50,273 | INFO | DONE 10_export_consolidated_ss_virulex_outputs in 0.2s
+2026-05-23 19:09:50,273 | INFO | SS-VIRULEX pipeline completed
+2026-05-23 21:13:02,043 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-23 21:13:02,045 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-23 21:13:02,046 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-23 21:13:02,049 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-23 21:13:02,049 | INFO | START 4b_required_svis_rulex_trained_components
+2026-05-23 21:13:02,173 | INFO | SVIS-RULEX required components validated: custom_mobilenet_accuracy=0.7537
+2026-05-23 21:13:02,177 | INFO | DONE 4b_required_svis_rulex_trained_components in 0.1s
+2026-05-23 21:13:02,178 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-23 21:13:12,965 | WARNING | No GPT-4V/BioVIL concept generation script was found in either repository. Using the completed concept CSV as the materialized output of that screenshot branch.
+2026-05-23 21:13:12,995 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 21:13:13,006 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-23 21:13:13,007 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 10.8s
+2026-05-23 21:13:13,008 | INFO | SKIP 5b_med_micn_per_image_concept_probabilities: expected outputs already exist
+2026-05-23 21:13:13,011 | INFO | START 6_combined_stat_concept_zfmis
+2026-05-23 21:13:13,033 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 21:13:13,310 | INFO | Saved 936 combined rows to /Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_train_combined_stat_concept_features.csv
+2026-05-23 21:13:13,335 | INFO | Saved 118 combined rows to /Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_val_combined_stat_concept_features.csv
+2026-05-23 21:13:13,390 | INFO | Saved 203 combined rows to /Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_test_combined_stat_concept_features.csv
+2026-05-23 21:13:16,831 | INFO | Combined feature sets: {'all': 36, 'filtered': 31, 'statistical_all': 26, 'concept_all': 8, 'med_diagnosis_all': 2, 'selected_18': 18, 'selected_15': 15, 'selected_12': 12, 'selected_9': 9, 'selected_6': 6, 'selected_3': 3}
+2026-05-23 21:13:16,833 | INFO | DONE 6_combined_stat_concept_zfmis in 3.8s
+2026-05-23 21:13:16,833 | INFO | START 7a_combined_decision_tree_rules
+2026-05-23 21:13:37,140 | INFO | Combined DT all: balanced_accuracy=0.6497
+2026-05-23 21:13:56,449 | INFO | Combined DT filtered: balanced_accuracy=0.6497
+2026-05-23 21:14:12,829 | INFO | Combined DT selected_18: balanced_accuracy=0.6690
+2026-05-23 21:14:23,411 | INFO | Combined DT selected_15: balanced_accuracy=0.6741
+2026-05-23 21:14:34,110 | INFO | Combined DT selected_12: balanced_accuracy=0.6673
+2026-05-23 21:14:45,179 | INFO | Combined DT selected_9: balanced_accuracy=0.6673
+2026-05-23 21:14:51,786 | INFO | Combined DT selected_6: balanced_accuracy=0.6599
+2026-05-23 21:14:58,855 | INFO | Combined DT selected_3: balanced_accuracy=0.6599
+2026-05-23 21:14:58,865 | INFO | DONE 7a_combined_decision_tree_rules in 102.0s
+2026-05-23 21:14:58,865 | INFO | SKIP 7b_combined_rulefit_rules: expected outputs already exist
+2026-05-23 21:14:58,865 | INFO | START 7c_combined_stronger_classifiers
+2026-05-23 21:15:26,325 | INFO | Combined random_forest all: val_balanced_accuracy=0.7434 test_balanced_accuracy=0.6738
+2026-05-23 21:16:00,318 | INFO | Combined extra_trees all: val_balanced_accuracy=0.7187 test_balanced_accuracy=0.6830
+2026-05-23 21:16:19,611 | INFO | Combined gradient_boosting all: val_balanced_accuracy=0.7526 test_balanced_accuracy=0.6731
+2026-05-23 21:16:26,685 | INFO | Combined hist_gradient_boosting all: val_balanced_accuracy=0.7184 test_balanced_accuracy=0.6544
+2026-05-23 21:16:31,218 | INFO | Combined svm_rbf all: val_balanced_accuracy=0.7098 test_balanced_accuracy=0.6980
+2026-05-23 21:16:31,746 | INFO | Combined logistic_regression all: val_balanced_accuracy=0.7270 test_balanced_accuracy=0.6684
+2026-05-23 21:17:00,806 | INFO | Combined random_forest filtered: val_balanced_accuracy=0.7520 test_balanced_accuracy=0.6789
+2026-05-23 21:17:25,149 | INFO | Combined extra_trees filtered: val_balanced_accuracy=0.7601 test_balanced_accuracy=0.6544
+2026-05-23 21:17:42,576 | INFO | Combined gradient_boosting filtered: val_balanced_accuracy=0.7437 test_balanced_accuracy=0.6782
+2026-05-23 21:17:48,834 | INFO | Combined hist_gradient_boosting filtered: val_balanced_accuracy=0.7184 test_balanced_accuracy=0.6592
+2026-05-23 21:17:52,508 | INFO | Combined svm_rbf filtered: val_balanced_accuracy=0.7264 test_balanced_accuracy=0.6738
+2026-05-23 21:17:52,991 | INFO | Combined logistic_regression filtered: val_balanced_accuracy=0.7270 test_balanced_accuracy=0.6684
+2026-05-23 21:18:16,439 | INFO | Combined random_forest selected_18: val_balanced_accuracy=0.7520 test_balanced_accuracy=0.6639
+2026-05-23 21:19:05,408 | INFO | Combined extra_trees selected_18: val_balanced_accuracy=0.7443 test_balanced_accuracy=0.6976
+2026-05-23 21:19:18,382 | INFO | Combined gradient_boosting selected_18: val_balanced_accuracy=0.7440 test_balanced_accuracy=0.6878
+2026-05-23 21:19:22,552 | INFO | Combined hist_gradient_boosting selected_18: val_balanced_accuracy=0.7440 test_balanced_accuracy=0.6639
+2026-05-23 21:19:25,057 | INFO | Combined svm_rbf selected_18: val_balanced_accuracy=0.7270 test_balanced_accuracy=0.6820
+2026-05-23 21:19:25,325 | INFO | Combined logistic_regression selected_18: val_balanced_accuracy=0.7184 test_balanced_accuracy=0.6439
+2026-05-23 21:19:55,136 | INFO | Combined random_forest selected_9: val_balanced_accuracy=0.7526 test_balanced_accuracy=0.6731
+2026-05-23 21:20:21,561 | INFO | Combined extra_trees selected_9: val_balanced_accuracy=0.7356 test_balanced_accuracy=0.6687
+2026-05-23 21:20:30,569 | INFO | Combined gradient_boosting selected_9: val_balanced_accuracy=0.7440 test_balanced_accuracy=0.6779
+2026-05-23 21:20:39,911 | INFO | Combined hist_gradient_boosting selected_9: val_balanced_accuracy=0.7443 test_balanced_accuracy=0.6439
+2026-05-23 21:20:42,558 | INFO | Combined svm_rbf selected_9: val_balanced_accuracy=0.7443 test_balanced_accuracy=0.6973
+2026-05-23 21:20:42,833 | INFO | Combined logistic_regression selected_9: val_balanced_accuracy=0.7362 test_balanced_accuracy=0.6680
+2026-05-23 21:21:04,674 | INFO | Combined random_forest selected_6: val_balanced_accuracy=0.7356 test_balanced_accuracy=0.6789
+2026-05-23 21:21:30,853 | INFO | Combined extra_trees selected_6: val_balanced_accuracy=0.7443 test_balanced_accuracy=0.6690
+2026-05-23 21:21:36,459 | INFO | Combined gradient_boosting selected_6: val_balanced_accuracy=0.7270 test_balanced_accuracy=0.6884
+2026-05-23 21:21:39,410 | INFO | Combined hist_gradient_boosting selected_6: val_balanced_accuracy=0.7529 test_balanced_accuracy=0.6888
+2026-05-23 21:21:41,636 | INFO | Combined svm_rbf selected_6: val_balanced_accuracy=0.7362 test_balanced_accuracy=0.6922
+2026-05-23 21:21:41,921 | INFO | Combined logistic_regression selected_6: val_balanced_accuracy=0.7279 test_balanced_accuracy=0.6776
+2026-05-23 21:22:00,272 | INFO | Combined random_forest med_diagnosis_all: val_balanced_accuracy=0.7353 test_balanced_accuracy=0.6646
+2026-05-23 21:22:18,428 | INFO | Combined extra_trees med_diagnosis_all: val_balanced_accuracy=0.7356 test_balanced_accuracy=0.6636
+2026-05-23 21:22:23,429 | INFO | Combined gradient_boosting med_diagnosis_all: val_balanced_accuracy=0.7267 test_balanced_accuracy=0.6748
+2026-05-23 21:22:26,471 | INFO | Combined hist_gradient_boosting med_diagnosis_all: val_balanced_accuracy=0.7181 test_balanced_accuracy=0.6599
+2026-05-23 21:22:27,967 | INFO | Combined svm_rbf med_diagnosis_all: val_balanced_accuracy=0.7532 test_balanced_accuracy=0.6833
+2026-05-23 21:22:28,270 | INFO | Combined logistic_regression med_diagnosis_all: val_balanced_accuracy=0.7193 test_balanced_accuracy=0.6731
+2026-05-23 21:22:28,296 | INFO | DONE 7c_combined_stronger_classifiers in 449.4s
+2026-05-23 21:22:28,296 | INFO | START 7d_extract_combined_final_rules
+2026-05-23 21:22:28,345 | INFO | DONE 7d_extract_combined_final_rules in 0.0s
+2026-05-23 21:22:28,357 | INFO | SKIP 8_concept_aware_sfmov: expected outputs already exist
+2026-05-23 21:22:28,357 | INFO | START 9_final_summary
+2026-05-23 21:22:28,400 | INFO | DONE 9_final_summary in 0.0s
+2026-05-23 21:22:28,401 | INFO | START 10_export_consolidated_ss_virulex_outputs
+2026-05-23 21:22:29,610 | INFO | Consolidated SS-VIRULEX outputs exported to /Users/samehissa/Downloads/SS-VIRULEX-outputs
+2026-05-23 21:22:29,610 | INFO | DONE 10_export_consolidated_ss_virulex_outputs in 1.2s
+2026-05-23 21:22:29,612 | INFO | SS-VIRULEX pipeline completed
+2026-05-23 21:37:52,604 | INFO | SKIP 1_input_preprocessing: expected outputs already exist
+2026-05-23 21:37:52,606 | INFO | SKIP 2_mobilenetv2_grid_search_and_base_features: expected outputs already exist
+2026-05-23 21:37:52,606 | INFO | SKIP 3_final_custom_mobilenetv2: expected outputs already exist
+2026-05-23 21:37:52,607 | INFO | SKIP 4_statistical_features_zfmis: expected outputs already exist
+2026-05-23 21:37:52,608 | INFO | START 4b_required_svis_rulex_trained_components
+2026-05-23 21:37:52,659 | INFO | SVIS-RULEX required components validated: custom_mobilenet_accuracy=0.7537
+2026-05-23 21:37:52,660 | INFO | DONE 4b_required_svis_rulex_trained_components in 0.1s
+2026-05-23 21:37:52,660 | INFO | START 5_required_med_micn_concept_embedding_and_neural_symbolic
+2026-05-23 21:37:56,431 | WARNING | No GPT-4V/BioVIL concept generation script was found in either repository. Using the completed concept CSV as the materialized output of that screenshot branch.
+2026-05-23 21:37:56,448 | INFO | Concept rows: 746; concept columns: 8
+2026-05-23 21:37:56,455 | INFO | Med-MICN required components validated: concept_accuracy=0.7217 neural_accuracy=0.7143
+2026-05-23 21:37:56,455 | INFO | DONE 5_required_med_micn_concept_embedding_and_neural_symbolic in 3.8s
+2026-05-23 21:37:56,456 | INFO | SKIP 5b_med_micn_per_image_concept_probabilities: expected outputs already exist
+2026-05-23 21:37:56,457 | INFO | SKIP 6_combined_stat_concept_zfmis: expected outputs already exist
+2026-05-23 21:37:56,458 | INFO | SKIP 7a_combined_decision_tree_rules: expected outputs already exist
+2026-05-23 21:37:56,459 | INFO | SKIP 7b_combined_rulefit_rules: expected outputs already exist
+2026-05-23 21:37:56,459 | INFO | SKIP 7c_combined_stronger_classifiers: expected outputs already exist
+2026-05-23 21:37:56,460 | INFO | START 7d_combined_calibrated_threshold_classifiers
+2026-05-23 21:38:00,844 | INFO | Calibrated svm_rbf all: threshold=0.5041 val_balanced_accuracy=0.7540 test_balanced_accuracy=0.7095
+2026-05-23 21:38:06,648 | INFO | Calibrated extra_trees selected_18: threshold=0.5200 val_balanced_accuracy=0.7707 test_balanced_accuracy=0.6956
+2026-05-23 21:38:10,878 | INFO | Calibrated svm_rbf selected_9: threshold=0.5400 val_balanced_accuracy=0.7618 test_balanced_accuracy=0.6864
+2026-05-23 21:38:15,679 | INFO | Calibrated svm_rbf selected_6: threshold=0.7153 val_balanced_accuracy=0.7632 test_balanced_accuracy=0.6983
+2026-05-23 21:38:20,281 | INFO | Calibrated hist_gradient_boosting selected_6: threshold=0.5300 val_balanced_accuracy=0.7632 test_balanced_accuracy=0.7031
+2026-05-23 21:38:24,383 | INFO | Calibrated gradient_boosting selected_6: threshold=0.7000 val_balanced_accuracy=0.7730 test_balanced_accuracy=0.7211
+2026-05-23 21:38:29,836 | INFO | Calibrated gradient_boosting selected_18: threshold=0.7180 val_balanced_accuracy=0.7560 test_balanced_accuracy=0.7255
+2026-05-23 21:38:34,249 | INFO | Calibrated svm_rbf med_diagnosis_all: threshold=0.5300 val_balanced_accuracy=0.7618 test_balanced_accuracy=0.6878
+2026-05-23 21:38:40,290 | INFO | Calibrated extra_trees all: threshold=0.6045 val_balanced_accuracy=0.7629 test_balanced_accuracy=0.7136
+2026-05-23 21:38:44,704 | INFO | Calibrated svm_rbf selected_18: threshold=0.4900 val_balanced_accuracy=0.7624 test_balanced_accuracy=0.7048
+2026-05-23 21:38:50,109 | INFO | Calibrated random_forest filtered: threshold=0.5220 val_balanced_accuracy=0.7710 test_balanced_accuracy=0.7061
+2026-05-23 21:38:54,124 | INFO | Calibrated random_forest selected_6: threshold=0.4500 val_balanced_accuracy=0.7618 test_balanced_accuracy=0.6684
+2026-05-23 21:38:58,130 | INFO | Calibrated gradient_boosting filtered: threshold=0.4467 val_balanced_accuracy=0.7787 test_balanced_accuracy=0.6769
+2026-05-23 21:39:01,858 | INFO | Calibrated gradient_boosting selected_9: threshold=0.4300 val_balanced_accuracy=0.7701 test_balanced_accuracy=0.6534
+2026-05-23 21:39:05,688 | INFO | Calibrated logistic_regression selected_6: threshold=0.6300 val_balanced_accuracy=0.7724 test_balanced_accuracy=0.7167
+2026-05-23 21:39:08,090 | INFO | Calibrated gradient_boosting med_diagnosis_all: threshold=0.5600 val_balanced_accuracy=0.7635 test_balanced_accuracy=0.7075
+2026-05-23 21:39:12,145 | INFO | Calibrated svm_rbf filtered: threshold=0.6300 val_balanced_accuracy=0.7552 test_balanced_accuracy=0.7133
+2026-05-23 21:39:17,114 | INFO | Calibrated random_forest all: threshold=0.5800 val_balanced_accuracy=0.7626 test_balanced_accuracy=0.6997
+2026-05-23 21:39:21,531 | INFO | Calibrated random_forest selected_9: threshold=0.2900 val_balanced_accuracy=0.7684 test_balanced_accuracy=0.6514
+2026-05-23 21:39:25,322 | INFO | Calibrated logistic_regression med_diagnosis_all: threshold=0.6200 val_balanced_accuracy=0.7632 test_balanced_accuracy=0.7034
+2026-05-23 21:39:29,571 | INFO | Calibrated gradient_boosting all: threshold=0.3400 val_balanced_accuracy=0.7609 test_balanced_accuracy=0.6503
+2026-05-23 21:39:34,452 | INFO | Calibrated extra_trees selected_6: threshold=0.5732 val_balanced_accuracy=0.7540 test_balanced_accuracy=0.7095
+2026-05-23 21:39:39,308 | INFO | Calibrated extra_trees selected_9: threshold=0.5726 val_balanced_accuracy=0.7710 test_balanced_accuracy=0.7048
+2026-05-23 21:39:43,179 | INFO | Calibrated logistic_regression filtered: threshold=0.4816 val_balanced_accuracy=0.7537 test_balanced_accuracy=0.7194
+2026-05-23 21:39:47,088 | INFO | Calibrated logistic_regression all: threshold=0.4800 val_balanced_accuracy=0.7454 test_balanced_accuracy=0.7194
+2026-05-23 21:39:50,969 | INFO | Calibrated logistic_regression selected_9: threshold=0.6300 val_balanced_accuracy=0.7557 test_balanced_accuracy=0.7313
+2026-05-23 21:39:54,676 | INFO | Calibrated random_forest med_diagnosis_all: threshold=0.6875 val_balanced_accuracy=0.7721 test_balanced_accuracy=0.7075
+2026-05-23 21:39:59,519 | INFO | Calibrated random_forest selected_18: threshold=0.4642 val_balanced_accuracy=0.7790 test_balanced_accuracy=0.6728
+2026-05-23 21:40:03,882 | INFO | Calibrated hist_gradient_boosting selected_18: threshold=0.4757 val_balanced_accuracy=0.7707 test_balanced_accuracy=0.6905
+2026-05-23 21:40:12,578 | INFO | Calibrated extra_trees med_diagnosis_all: threshold=0.6927 val_balanced_accuracy=0.7718 test_balanced_accuracy=0.7075
+2026-05-23 21:40:15,607 | INFO | Calibrated hist_gradient_boosting med_diagnosis_all: threshold=0.5571 val_balanced_accuracy=0.7805 test_balanced_accuracy=0.7075
+2026-05-23 21:40:19,722 | INFO | Calibrated hist_gradient_boosting filtered: threshold=0.5320 val_balanced_accuracy=0.7882 test_balanced_accuracy=0.7095
+2026-05-23 21:40:23,996 | INFO | Calibrated extra_trees filtered: threshold=0.4800 val_balanced_accuracy=0.7960 test_balanced_accuracy=0.7065
+2026-05-23 21:40:28,206 | INFO | Calibrated hist_gradient_boosting all: threshold=0.5300 val_balanced_accuracy=0.7882 test_balanced_accuracy=0.6997
+2026-05-23 21:40:32,044 | INFO | Calibrated logistic_regression selected_18: threshold=0.6096 val_balanced_accuracy=0.7638 test_balanced_accuracy=0.7269
+2026-05-23 21:40:36,006 | INFO | Calibrated hist_gradient_boosting selected_9: threshold=0.4500 val_balanced_accuracy=0.7790 test_balanced_accuracy=0.6810
+2026-05-23 21:40:36,022 | INFO | DONE 7d_combined_calibrated_threshold_classifiers in 159.6s
+2026-05-23 21:40:36,023 | INFO | START 7e_extract_combined_final_rules
+2026-05-23 21:40:36,047 | INFO | DONE 7e_extract_combined_final_rules in 0.0s
+2026-05-23 21:40:36,048 | INFO | SKIP 8_concept_aware_sfmov: expected outputs already exist
+2026-05-23 21:40:36,048 | INFO | START 9_final_summary
+2026-05-23 21:40:36,067 | INFO | DONE 9_final_summary in 0.0s
+2026-05-23 21:40:36,067 | INFO | START 10_export_consolidated_ss_virulex_outputs

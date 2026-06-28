@@ -1,0 +1,28 @@
+{
+  "status": "required_components_validated",
+  "med_micn_source_root": "/Users/samehissa/Downloads/NeurIPS24-Med_MICN-main",
+  "med_micn_artifact_root": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN",
+  "med_micn_modules": {
+    "model_wrapper": "/Users/samehissa/Downloads/NeurIPS24-Med_MICN-main/models.py",
+    "concept_embedding_and_reasoning": "/Users/samehissa/Downloads/NeurIPS24-Med_MICN-main/torch_explain/nn/concepts.py",
+    "logic_metrics": "/Users/samehissa/Downloads/NeurIPS24-Med_MICN-main/torch_explain/logic/metrics.py"
+  },
+  "med_micn_artifacts": {
+    "checkpoint": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/best_model.pt",
+    "training_history": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/training_history.csv",
+    "test_metrics": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/test_metrics.csv",
+    "test_concept_metrics": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/test_concept_metrics.csv",
+    "run_summary": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/run_summary.json"
+  },
+  "required_components": {
+    "concept_embedding_module": "torch_explain.nn.concepts.ConceptEmbedding",
+    "neural_symbolic_layer": "torch_explain.nn.concepts.ConceptReasoningLayer"
+  },
+  "test_metrics": {
+    "task_accuracy": 0.7044334975369458,
+    "neural_accuracy": 0.7142857142857143,
+    "neural_f1_macro": 0.7105703048180925,
+    "concept_accuracy": 0.7216748768472906,
+    "concept_f1_macro": 0.659051724137931
+  }
+}

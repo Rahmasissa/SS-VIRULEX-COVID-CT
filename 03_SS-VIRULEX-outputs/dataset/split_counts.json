@@ -1,0 +1,32 @@
+[
+  {
+    "split": "test",
+    "class_name": "COVID",
+    "count": 98
+  },
+  {
+    "split": "test",
+    "class_name": "NonCOVID",
+    "count": 105
+  },
+  {
+    "split": "train",
+    "class_name": "COVID",
+    "count": 191
+  },
+  {
+    "split": "train",
+    "class_name": "NonCOVID",
+    "count": 234
+  },
+  {
+    "split": "val",
+    "class_name": "COVID",
+    "count": 60
+  },
+  {
+    "split": "val",
+    "class_name": "NonCOVID",
+    "count": 58
+  }
+]

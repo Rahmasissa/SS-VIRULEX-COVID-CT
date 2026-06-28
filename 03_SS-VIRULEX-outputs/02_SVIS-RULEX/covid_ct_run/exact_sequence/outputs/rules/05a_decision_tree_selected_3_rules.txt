@@ -1,0 +1,10 @@
+|--- coef_of_var <= 1.48
+|   |--- entropy <= 4.07
+|   |   |--- class: 1
+|   |--- entropy >  4.07
+|   |   |--- class: 0
+|--- coef_of_var >  1.48
+|   |--- entropy <= 3.59
+|   |   |--- class: 0
+|   |--- entropy >  3.59
+|   |   |--- class: 0

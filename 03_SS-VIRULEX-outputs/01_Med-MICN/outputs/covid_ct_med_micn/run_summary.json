@@ -1,0 +1,25 @@
+{
+  "best_checkpoint": "outputs/covid_ct_med_micn/best_model.pt",
+  "training_history_csv": "outputs/covid_ct_med_micn/training_history.csv",
+  "test_metrics_csv": "outputs/covid_ct_med_micn/test_metrics.csv",
+  "test_concept_metrics_csv": "outputs/covid_ct_med_micn/test_concept_metrics.csv",
+  "test_metrics": {
+    "split": "test",
+    "loss": 1.5033718175612962,
+    "task_accuracy": 0.7044334975369458,
+    "task_f1_macro": 0.7042540792540792,
+    "task_precision_macro": 0.7042233009708738,
+    "task_recall_macro": 0.704421768707483,
+    "task_auc": 0.7597667638483965,
+    "neural_accuracy": 0.7142857142857143,
+    "neural_f1_macro": 0.7105703048180925,
+    "neural_precision_macro": 0.7190586575287241,
+    "neural_recall_macro": 0.7112244897959183,
+    "neural_auc": 0.7458697764820214,
+    "concept_accuracy": 0.7216748768472906,
+    "concept_f1_micro": 0.7216748768472906,
+    "concept_f1_macro": 0.659051724137931
+  },
+  "per_image_concept_probabilities_csv": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/per_image_concept_probabilities.csv",
+  "per_image_concept_probabilities_rows": 1257
+}

@@ -1,0 +1,17 @@
+{
+  "xai_root": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX",
+  "med_root": "/Users/samehissa/Downloads/NeurIPS24-Med_MICN-main",
+  "med_artifact_root": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN",
+  "svis_rulex_artifact_root": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX",
+  "svis_rulex_trained_model": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/03_custom_mobilenetv2_complete_covid_ct.keras",
+  "med_micn_trained_checkpoint": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/best_model.pt",
+  "med_micn_concept_probabilities": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/per_image_concept_probabilities.csv",
+  "data_root": "/Users/samehissa/Downloads/COVID-CT-Dataset-master",
+  "concept_csv": "/Users/samehissa/Downloads/covid_ct_concepts_completed.csv",
+  "ss_output_root": "/Users/samehissa/Downloads/SS-VIRULEX-outputs",
+  "metrics_summary": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/ss_virulex_final_metrics_summary.csv",
+  "med_micn_required_components": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/05_med_micn_required_components.json",
+  "combined_features": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/features/04_combined_zfmis_feature_sets.json",
+  "combined_rules": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/06_combined_rule_extraction_summary.json",
+  "concept_aware_sfmov": "/Users/samehissa/Downloads/SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/07_concept_aware_sfmov_heatmap_files.json"
+}

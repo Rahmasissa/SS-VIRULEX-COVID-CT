@@ -1,0 +1,29 @@
+{
+  "best_decision_tree": {
+    "feature_set": "selected_6",
+    "n_features": 6,
+    "best_params": "{\"criterion\": \"entropy\", \"max_depth\": 4, \"min_samples_leaf\": 8, \"min_samples_split\": 2}",
+    "cv_balanced_accuracy": 0.5964767787691604,
+    "test_accuracy": 0.5615763546798029,
+    "test_balanced_accuracy": 0.5544217687074829,
+    "test_f1_weighted": 0.5414568442890826,
+    "test_roc_auc": 0.5475218658892128,
+    "confusion_matrix": "[[80, 25], [64, 34]]",
+    "model_path": "/Users/samehissa/Downloads/XAI-Med-Images-Stat-Visual-Rules-main 2/covid_ct_run/exact_sequence/outputs/models/05a_decision_tree_selected_6.pkl",
+    "rules_path": "/Users/samehissa/Downloads/XAI-Med-Images-Stat-Visual-Rules-main 2/covid_ct_run/exact_sequence/outputs/rules/05a_decision_tree_selected_6_rules.txt"
+  },
+  "best_rulefit": {
+    "feature_set": "selected_3",
+    "n_features": 3,
+    "best_params": "{\"tree_size\": 4, \"sample_fract\": 0.8, \"max_rules\": 50}",
+    "val_balanced_accuracy": 0.524712643678161,
+    "test_accuracy": 0.5073891625615764,
+    "test_balanced_accuracy": 0.508843537414966,
+    "test_f1_weighted": 0.5066714894301101,
+    "confusion_matrix": "[[49, 56], [44, 54]]",
+    "n_nonzero_rules": 7,
+    "rules_path": "/Users/samehissa/Downloads/XAI-Med-Images-Stat-Visual-Rules-main 2/covid_ct_run/exact_sequence/outputs/rules/05b_rulefit_selected_3_rules.csv"
+  },
+  "decision_tree_rules": "/Users/samehissa/Downloads/XAI-Med-Images-Stat-Visual-Rules-main 2/covid_ct_run/exact_sequence/outputs/rules/06_best_decision_tree_rules.txt",
+  "rulefit_rules": "/Users/samehissa/Downloads/XAI-Med-Images-Stat-Visual-Rules-main 2/covid_ct_run/exact_sequence/outputs/rules/06_best_rulefit_rules.csv"
+}

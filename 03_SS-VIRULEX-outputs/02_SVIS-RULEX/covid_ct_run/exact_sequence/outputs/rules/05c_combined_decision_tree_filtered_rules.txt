@@ -1,0 +1,22 @@
+|--- med_task_prob_covid <= 0.08
+|   |--- med_task_prob_covid <= 0.00
+|   |   |--- med_task_prob_covid <= 0.00
+|   |   |   |--- class: 0
+|   |   |--- med_task_prob_covid >  0.00
+|   |   |   |--- class: 0
+|   |--- med_task_prob_covid >  0.00
+|   |   |--- iqr <= 0.58
+|   |   |   |--- class: 0
+|   |   |--- iqr >  0.58
+|   |   |   |--- class: 1
+|--- med_task_prob_covid >  0.08
+|   |--- med_task_prob_covid <= 0.89
+|   |   |--- concept_score_peripheral_ground_glass_opacities <= 0.63
+|   |   |   |--- class: 1
+|   |   |--- concept_score_peripheral_ground_glass_opacities >  0.63
+|   |   |   |--- class: 0
+|   |--- med_task_prob_covid >  0.89
+|   |   |--- range <= 1.12
+|   |   |   |--- class: 0
+|   |   |--- range >  1.12
+|   |   |   |--- class: 1

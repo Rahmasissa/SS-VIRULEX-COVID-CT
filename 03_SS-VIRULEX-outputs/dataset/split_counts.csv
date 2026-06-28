@@ -1,0 +1,7 @@
+split,class_name,count
+test,COVID,98
+test,NonCOVID,105
+train,COVID,191
+train,NonCOVID,234
+val,COVID,60
+val,NonCOVID,58

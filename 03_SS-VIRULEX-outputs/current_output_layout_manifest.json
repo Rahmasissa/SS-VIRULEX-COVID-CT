@@ -1,0 +1,15 @@
+{
+  "source": "current reconstructed SS-VIRULEX artifacts",
+  "generated_at": "2026-05-23T21:41:32.147415",
+  "notes": [
+    "RuleFit per-image prediction models were not saved in the current reconstructed run; predictions_covid.csv contains decision-tree predictions and blank RuleFit prediction columns.",
+    "Concept Grad-CAM PNGs were not saved in the current reconstructed run; visual_explanations/heatmaps/concept_gradcam contains a README placeholder rather than fabricated images."
+  ],
+  "paths": {
+    "med_micn_trained_artifacts": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/01_Med-MICN",
+    "med_micn_checkpoint": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/best_model.pt",
+    "med_micn_concept_probabilities": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/01_Med-MICN/outputs/covid_ct_med_micn/per_image_concept_probabilities.csv",
+    "svis_rulex_trained_artifacts": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX",
+    "svis_rulex_trained_model": "/Users/samehissa/Downloads/SS-VIRULEX-workspace/03_SS-VIRULEX-outputs/02_SVIS-RULEX/covid_ct_run/exact_sequence/outputs/models/03_custom_mobilenetv2_complete_covid_ct.keras"
+  }
+}

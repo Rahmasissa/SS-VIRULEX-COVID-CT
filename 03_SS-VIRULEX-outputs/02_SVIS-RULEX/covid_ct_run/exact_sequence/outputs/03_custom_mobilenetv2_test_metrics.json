@@ -1,0 +1,52 @@
+{
+  "model": "custom_mobilenetv2_complete",
+  "accuracy": 0.7536945812807881,
+  "balanced_accuracy": 0.7520408163265306,
+  "precision_weighted": 0.754612959007222,
+  "recall_weighted": 0.7536945812807881,
+  "f1_weighted": 0.7529734059380616,
+  "roc_auc": 0.7997084548104956,
+  "confusion_matrix": [
+    [
+      84,
+      21
+    ],
+    [
+      29,
+      69
+    ]
+  ],
+  "classification_report": {
+    "NonCOVID": {
+      "precision": 0.7433628318584071,
+      "recall": 0.8,
+      "f1-score": 0.7706422018348624,
+      "support": 105.0
+    },
+    "COVID": {
+      "precision": 0.7666666666666667,
+      "recall": 0.7040816326530612,
+      "f1-score": 0.7340425531914894,
+      "support": 98.0
+    },
+    "accuracy": 0.7536945812807881,
+    "macro avg": {
+      "precision": 0.755014749262537,
+      "recall": 0.7520408163265306,
+      "f1-score": 0.7523423775131759,
+      "support": 203.0
+    },
+    "weighted avg": {
+      "precision": 0.754612959007222,
+      "recall": 0.7536945812807881,
+      "f1-score": 0.7529734059380616,
+      "support": 203.0
+    }
+  },
+  "best_hyperparameters": {
+    "learning_rate": 0.001,
+    "dense_units": 256,
+    "dropout": 0.5
+  },
+  "epochs_run": 7
+}

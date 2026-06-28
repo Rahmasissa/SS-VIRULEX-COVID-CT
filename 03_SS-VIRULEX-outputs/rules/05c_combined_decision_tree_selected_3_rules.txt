@@ -1,0 +1,22 @@
+|--- med_task_prob_covid <= 0.08
+|   |--- med_task_prob_covid <= 0.00
+|   |   |--- med_task_prob_covid <= 0.00
+|   |   |   |--- class: 0
+|   |   |--- med_task_prob_covid >  0.00
+|   |   |   |--- class: 0
+|   |--- med_task_prob_covid >  0.00
+|   |   |--- med_neural_prob_covid <= 0.40
+|   |   |   |--- class: 0
+|   |   |--- med_neural_prob_covid >  0.40
+|   |   |   |--- class: 0
+|--- med_task_prob_covid >  0.08
+|   |--- med_task_prob_covid <= 0.89
+|   |   |--- med_task_prob_covid <= 0.37
+|   |   |   |--- class: 1
+|   |   |--- med_task_prob_covid >  0.37
+|   |   |   |--- class: 1
+|   |--- med_task_prob_covid >  0.89
+|   |   |--- med_task_prob_covid <= 0.99
+|   |   |   |--- class: 1
+|   |   |--- med_task_prob_covid >  0.99
+|   |   |   |--- class: 1
