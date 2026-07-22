@@ -1,0 +1,22 @@
+|--- mean_abs_dev <= 0.33
+|   |--- coef_of_var <= 1.48
+|   |   |--- energy <= 12.61
+|   |   |   |--- class: 0
+|   |   |--- energy >  12.61
+|   |   |   |--- class: 1
+|   |--- coef_of_var >  1.48
+|   |   |--- variance <= 0.07
+|   |   |   |--- class: 0
+|   |   |--- variance >  0.07
+|   |   |   |--- class: 0
+|--- mean_abs_dev >  0.33
+|   |--- coef_of_var <= 1.45
+|   |   |--- signal_to_noise <= 0.73
+|   |   |   |--- class: 1
+|   |   |--- signal_to_noise >  0.73
+|   |   |   |--- class: 1
+|   |--- coef_of_var >  1.45
+|   |   |--- std_dev <= 0.46
+|   |   |   |--- class: 1
+|   |   |--- std_dev >  0.46
+|   |   |   |--- class: 0

@@ -1,0 +1,39 @@
+experiment_id: current_workspace_reproduction
+enabled: true
+description: Exact recorded Med-MICN notebook behavior before reliability changes.
+model:
+  backbone: RN50
+  pretrained: true
+  embedding_size: 8
+  dropout: 0.2
+preprocessing:
+  color_mode: RGB
+  resize_shorter_side: 256
+  crop_size: 224
+  normalization:
+    name: ImageNet
+    mean: [0.485, 0.456, 0.406]
+    std: [0.229, 0.224, 0.225]
+training_augmentation:
+  enabled: false
+  horizontal_flip: false
+fine_tuning:
+  mode: full
+  final_mode: full
+optimization:
+  optimizer: AdamW
+  batch_size: 16
+  max_epochs: 20
+  final_epochs: 20
+  head_learning_rate: 0.00005
+  backbone_learning_rate: 0.00005
+  weight_decay: 0.0
+  early_stopping_patience: 20
+loss_weights:
+  task: 1.0
+  concept: 0.1
+  neural: 0.1
+  concept_task: 0.0
+notes:
+  - The original notebook saves the best validation macro-F1 checkpoint but runs all 20 epochs.
+  - The original checkpoint did not save preprocessing, pretrained/frozen flags, loss weights, or trainable parameter counts.

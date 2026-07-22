@@ -1,0 +1,16 @@
+numpy<2
+pandas>=2.2
+scikit-learn>=1.4
+scipy>=1.10
+pillow>=10
+ImageHash>=4.3
+PyYAML>=6
+joblib>=1.3
+pytest>=8
+
+# Required only for real Med-MICN OOF generation and encoder training:
+# torch
+# torchvision
+
+# Optional; fold-safe evaluation skips RuleFit clearly when unavailable:
+# rulefit

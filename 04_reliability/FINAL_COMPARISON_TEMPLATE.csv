@@ -1,0 +1,6 @@
+version,upstream_med_features,encoder_policy,fold_safe_selection,calibration_threshold_source,selection_evidence,locked_config_id,test_evaluated_once,balanced_accuracy,accuracy,precision,sensitivity,specificity,f1,mcc,roc_auc,scientific_status
+Original baseline,Single-checkpoint in-sample train features,Original full fine-tune,No,Reused validation and historical test-informed selection,Historical artifacts only,N/A,No,,,,,,,,,Invalid for unbiased comparison
+Leakage-safe baseline,Existing Med features,Original encoder,Yes,Development OOF only,Nested development CV,,,,,,,,,,,Pending
+OOF-fusion version,OOF train/development and final-model test,Reproducible baseline,Yes,Development OOF only,Nested development CV,,,,,,,,,,,Pending
+Fine-tuned encoder version,OOF from selected encoder,Frozen or gradual final block,Yes,Development OOF only,Same split folds and validation protocol,,,,,,,,,,,Pending
+Combined final version,OOF from locked encoder and one final-test inference,Locked winning encoder,Yes,Development OOF only,Locked before test,,,,,,,,,,,Pending

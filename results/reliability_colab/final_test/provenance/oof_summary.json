@@ -1,0 +1,85 @@
+{
+  "backend": "med_micn",
+  "checks": [
+    {
+      "check": "feature_frame_schema",
+      "detail": "schema, ordering, finiteness, ranges, and uniqueness valid",
+      "status": "PASS"
+    },
+    {
+      "check": "image_to_feature_alignment",
+      "detail": "all metadata keys align",
+      "status": "PASS"
+    },
+    {
+      "check": "feature_generation_mode",
+      "detail": "observed=['out-of-fold']",
+      "status": "PASS"
+    }
+  ],
+  "configuration_id": "112592618942",
+  "development_splits": [
+    "train",
+    "val"
+  ],
+  "encoder_config": "/content/drive/MyDrive/colab_package/04_reliability/configs/encoder_gradual_final_block.yaml",
+  "feature_order": [
+    "concept_score_peripheral_ground_glass_opacities",
+    "concept_score_bilateral_involvement",
+    "concept_score_multilobar_distribution",
+    "concept_score_crazy_paving_pattern",
+    "concept_score_absence_of_lobar_consolidation",
+    "concept_score_localized_or_diffuse_presentation",
+    "concept_score_increased_density_in_the_lung",
+    "concept_score_ground_glass_appearance",
+    "med_task_prob_covid",
+    "med_neural_prob_covid"
+  ],
+  "fold_details": [
+    {
+      "checkpoint_dir": "/content/drive/MyDrive/SS_VIRULEX_Reliability/12_oof_med_micn/checkpoints/fold_0",
+      "fit_rows": 671,
+      "fold_id": 0,
+      "group_overlap": 0,
+      "inner_validation_rows": 176,
+      "outer_holdout_rows": 207
+    },
+    {
+      "checkpoint_dir": "/content/drive/MyDrive/SS_VIRULEX_Reliability/12_oof_med_micn/checkpoints/fold_1",
+      "fit_rows": 667,
+      "fold_id": 1,
+      "group_overlap": 0,
+      "inner_validation_rows": 174,
+      "outer_holdout_rows": 213
+    },
+    {
+      "checkpoint_dir": "/content/drive/MyDrive/SS_VIRULEX_Reliability/12_oof_med_micn/checkpoints/fold_2",
+      "fit_rows": 685,
+      "fold_id": 2,
+      "group_overlap": 0,
+      "inner_validation_rows": 155,
+      "outer_holdout_rows": 214
+    },
+    {
+      "checkpoint_dir": "/content/drive/MyDrive/SS_VIRULEX_Reliability/12_oof_med_micn/checkpoints/fold_3",
+      "fit_rows": 674,
+      "fold_id": 3,
+      "group_overlap": 0,
+      "inner_validation_rows": 166,
+      "outer_holdout_rows": 214
+    },
+    {
+      "checkpoint_dir": "/content/drive/MyDrive/SS_VIRULEX_Reliability/12_oof_med_micn/checkpoints/fold_4",
+      "fit_rows": 689,
+      "fold_id": 4,
+      "group_overlap": 0,
+      "inner_validation_rows": 159,
+      "outer_holdout_rows": 206
+    }
+  ],
+  "folds": 5,
+  "grouping_mode": "augmentation_lineage; patient-level grouping not verifiable",
+  "rows": 1054,
+  "scientific_result": true,
+  "test_rows_accessed": 0
+}

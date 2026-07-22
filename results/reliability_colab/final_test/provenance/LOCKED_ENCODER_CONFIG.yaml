@@ -1,0 +1,45 @@
+experiment_id: gradual_final_block
+enabled: true
+description: Warm up new heads with a frozen ResNet-50, then fine-tune layer4 and classifier at 10x lower LR.
+model:
+  backbone: RN50
+  pretrained: true
+  embedding_size: 8
+  dropout: 0.2
+preprocessing:
+  color_mode: RGB
+  resize_shorter_side: 256
+  crop_size: 224
+  normalization:
+    name: ImageNet
+    mean: [0.485, 0.456, 0.406]
+    std: [0.229, 0.224, 0.225]
+training_augmentation:
+  enabled: true
+  rotation_degrees: 3.0
+  translate_fraction: [0.02, 0.02]
+  scale_range: [0.98, 1.02]
+  horizontal_flip: false
+  rationale: Conservative training-only perturbations; no horizontal flip.
+fine_tuning:
+  mode: gradual
+  final_mode: final_block
+  phases:
+    - mode: frozen
+      epochs: 3
+    - mode: final_block
+      epochs: 27
+optimization:
+  optimizer: AdamW
+  batch_size: 16
+  max_epochs: 30
+  final_epochs: 15
+  head_learning_rate: 0.00005
+  backbone_learning_rate: 0.000005
+  weight_decay: 0.0001
+  early_stopping_patience: 5
+loss_weights:
+  task: 1.0
+  concept: 0.1
+  neural: 0.1
+  concept_task: 0.0

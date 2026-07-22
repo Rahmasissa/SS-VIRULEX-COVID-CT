@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "check": "split_before_augmentation",
+      "status": "PASS",
+      "finding": "The official split table is loaded before augmentation and only train rows are augmented.",
+      "evidence": "common.py:140-181"
+    },
+    {
+      "check": "statistical_preprocessing_fit_scope",
+      "status": "PASS",
+      "finding": "Statistical descriptors are deterministic transforms and zero filtering/MI selection use the train split only in the baseline pipeline.",
+      "evidence": "common.py:476-529; run_ss_virulex_pipeline.py:879-903"
+    },
+    {
+      "check": "feature_selection_nested_in_cv",
+      "status": "FAIL",
+      "finding": "ZFMIS is fitted once on the complete train split before downstream GridSearchCV, so inner validation folds influence selected features.",
+      "evidence": "run_ss_virulex_pipeline.py:879-903,1071-1104"
+    },
+    {
+      "check": "med_micn_training_features_out_of_fold",
+      "status": "FAIL",
+      "finding": "A single checkpoint trained on train images generates features for those same training images; saved rows have no fold/checkpoint provenance.",
+      "evidence": "Med_MICN_COVID_CT_training.ipynb training cells; run_ss_virulex_pipeline.py:667-790"
+    },
+    {
+      "check": "calibration_threshold_fold_independence",
+      "status": "FAIL",
+      "finding": "Sigmoid calibration and threshold tuning both reuse the same validation labels and fitted validation predictions.",
+      "evidence": "run_ss_virulex_pipeline.py:1323-1327"
+    },
+    {
+      "check": "test_labels_excluded_from_model_selection",
+      "status": "FAIL",
+      "finding": "Many candidate configurations are evaluated on test and result/final-rule selection is sorted by test balanced accuracy.",
+      "evidence": "run_ss_virulex_pipeline.py:1283-1284,1377-1378,1387,1409,1415"
+    }
+  ]
+}

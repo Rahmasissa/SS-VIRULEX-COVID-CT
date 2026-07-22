@@ -1,0 +1,27 @@
+experiment_id: fold_safe_fusion
+seed: 42
+development_splits: [train, val]
+held_out_test_split: test
+outer_folds: 5
+inner_folds: 3
+zero_fraction_threshold: 0.50
+verified_subset_sizes: [18, 15, 12, 9, 6, 3]
+operations_fitted_inside_each_fold:
+  - median imputation
+  - zero-fraction screening
+  - mutual-information ranking
+  - top-k subset selection
+  - class weighting
+  - model hyperparameter selection
+calibration:
+  method: sigmoid
+  source: inner out-of-fold predictions from outer-training rows only
+threshold_selection:
+  metric: balanced_accuracy
+  source: group-disjoint tuning subset of inner out-of-fold predictions
+models:
+  decision_tree:
+    enabled: true
+  rulefit:
+    enabled_if_dependency_available: true
+test_policy: Do not load test features until selection_summary.json is locked.

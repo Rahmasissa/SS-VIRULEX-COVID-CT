@@ -1,0 +1,33 @@
+{
+  "grouping_mode": "augmentation_lineage; patient-level grouping not verifiable",
+  "locked_configuration_id": "2a35557fbf41",
+  "metrics": {
+    "accuracy": 0.5467980295566502,
+    "balanced_accuracy": 0.5503401360544218,
+    "confusion_matrix": [
+      [
+        47,
+        58
+      ],
+      [
+        34,
+        64
+      ]
+    ],
+    "f1": 0.5818181818181818,
+    "fn": 34,
+    "fp": 58,
+    "mcc": 0.10273765371699518,
+    "precision": 0.5245901639344263,
+    "recall_sensitivity": 0.6530612244897959,
+    "roc_auc": 0.5758017492711369,
+    "specificity": 0.44761904761904764,
+    "tn": 47,
+    "tp": 64
+  },
+  "selection_summary": "/content/drive/MyDrive/SS_VIRULEX_Reliability/14_nested_fusion/selection_summary.json",
+  "test_evaluation_count": 1,
+  "test_used_for_selection": false,
+  "threshold": 0.5277318484248186,
+  "upstream_med_feature_mode": "oof_and_final"
+}

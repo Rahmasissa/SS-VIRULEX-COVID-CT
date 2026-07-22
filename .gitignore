@@ -1,7 +1,13 @@
 .DS_Store
 *.pyc
 __pycache__/
+.pytest_cache/
 .venv/
 .venv-py312/
 venv/
 .env
+# Temporary Colab import and downloaded archive
+/colab_package/
+/colab_final_test_update.zip
+/04_reliability/outputs/
+/reliability_diffs/
