@@ -1,0 +1,2 @@
+# Exact setup-only test runner pin; model/runtime dependencies remain in requirements_colab.txt.
+pytest==9.1.1

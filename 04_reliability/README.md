@@ -15,6 +15,13 @@ Colab integration evidence and the next controlled experiment plan are under
 `../docs/reliability_integration/`. The preserved completed-run artifacts and
 their SHA-256 manifest are under `../results/reliability_colab/final_test/`.
 
+The hard-stop, setup-only Controlled Colab V2 entry point is
+`notebooks/Controlled_Colab_V2_Setup.ipynb`. It calls
+`ss_virulex_reliability.validate_v2_setup` and performs no training.
+Setup tooling is pinned separately in `configs/v2/setup_tools.txt`; global
+Colab `pip check` output is diagnostic, while exact distribution/import
+versions and exclusive ownership of the `cv2` namespace are mandatory gates.
+
 Safety contract:
 
 - Original artifacts are never silently overwritten.

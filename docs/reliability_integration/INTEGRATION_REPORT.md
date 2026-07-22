@@ -2,6 +2,7 @@
 
 Date: 2026-07-22
 Branch: `reliability-integration`
+Validated integration checkpoint: `78a06737d67b46b3961dab2f8a26c16db7de2b24`
 
 ## Audit outcome
 
@@ -67,8 +68,19 @@ The provenance chain says development selection loaded no test features, OOF gen
 - PASS: Python syntax compilation of the three changed source modules.
 - PASS: JSON/CSV parsing, row-count/confusion-matrix agreement, artifact hashes, and byte-for-byte copy comparison.
 - PASS: static checks of ignored package/archive/output/cache paths and absence of hard-coded Colab/Mac paths in active source changes.
-- BLOCKED LOCALLY: pytest, import smoke tests, model load, and runtime schema tests because no existing local interpreter has the lightweight project dependencies. A new environment was not installed because disk is critically low and the task forbids unnecessary environment expansion.
-- COLAB-ONLY: actual Med-MICN training, GPU DataLoader behavior, and all expensive V2 experiments.
+- PASS (user-reported, 2026-07-23, fresh Colab CPU runtime): the complete lightweight suite at checkpoint `78a06737d67b46b3961dab2f8a26c16db7de2b24` completed as `.......... [100%]` (10 tests passed). This covers the focused leakage audit, fold-safe selection/Med schema, OOF isolation, validated resume, and final-test acknowledgement protections without model training.
+- NOT RUN LOCALLY: runtime tests and model loading remain intentionally unexecuted on the storage-constrained Mac; the Colab CPU result is the validation record for the integrated source.
+- NOT STARTED: actual Med-MICN training, GPU DataLoader validation, and all Controlled Colab V2 experiments.
+
+## Controlled Colab V2 setup gate
+
+The post-checkpoint setup implementation adds a setup-only notebook, a reusable hard-stop validator, eight focused validator tests, an exact `pytest==9.1.1` setup-tool pin, and a byte-identical V2 locked-baseline config. The validator fixes the stale notebook behavior by requiring a clean descendant of validated checkpoint `78a06737d67b46b3961dab2f8a26c16db7de2b24`, protecting the validated source paths, using `/content/drive/MyDrive/colab_package` only as read-only input, and writing only below `/content/drive/MyDrive/SS_VIRULEX_Reliability_V2`. The completed output root and every descendant beneath it are rejected.
+
+The gate verifies exact dependency pins/imports, CUDA, required files, three recorded development-manifest checksums, 1,054 train/validation rows, the exact ordered eight concept labels, zero group overlap, official-test exclusion, a current development-only leakage audit with no failures, byte-identical locked configs, and configuration ID `112592618942`. It never reads the full concept-label source containing official-test labels and contains no training or official-test execution command.
+
+Colab's global `pip check` may remain nonzero because unrelated preinstalled packages declare incompatible requirements. Its output and return code are recorded as diagnostic evidence rather than used as the gate. Required distributions and imports must match their exact pins. Because OpenCV wheels share `cv2`, the setup removes competitors before installing `opencv-python-headless==4.10.0.84`; validation rejects any remaining competitor and requires imported `cv2` version `4.10.0`.
+
+Local setup-gate verification passed Python syntax compilation, notebook JSON and per-cell compilation, empty notebook-output checks, dependency-free validator checks, exact config byte comparison and ID recomputation, recorded development-manifest hashes, and a standard-library confirmation of 936 train plus 118 validation rows, eight concepts, and zero lineage-group overlap. The eight new dependency-backed pytest cases and the CUDA/full-image leakage gate remain for the fresh Colab GPU setup run because the Mac system Python does not contain the project dependencies.
 
 ## Remaining limitations
 
